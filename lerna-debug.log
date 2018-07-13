@@ -1,0 +1,1680 @@
+0 silly input []
+1 silly flags { _: [ 'bootstrap' ],
+1 silly flags   'reject-cycles': false,
+1 silly flags   rejectCycles: false,
+1 silly flags   stream: true,
+1 silly flags   hoist: '**',
+1 silly flags   nohoist: [ 'react-native', 'react-test-renderer' ],
+1 silly flags   args: [] }
+2 verbose rootPath /home/magic/Desktop/mobx-todo
+3 info version 2.11.0
+4 silly existsSync /home/magic/Desktop/mobx-todo/VERSION
+5 info versioning independent
+6 silly initialize attempt
+7 warn Package name "aa-alpha" used in multiple packages:
+          	/home/magic/Desktop/mobx-todo/packages/aa-alpha
+	/home/magic/Desktop/mobx-todo/packages/design-alpha
+8 silly npmConfig { registry: undefined,
+8 silly npmConfig   npmClient: undefined,
+8 silly npmConfig   npmClientArgs: undefined,
+8 silly npmConfig   mutex: undefined }
+9 silly initialize success
+10 silly execute attempt
+11 info Bootstrapping 4 packages
+12 info lifecycle preinstall
+13 silly runScript preinstall aa-alpha
+14 silly aa-alpha
+15 silly runScript preinstall aa-beta
+16 silly aa-beta
+17 silly runScript preinstall aa-alpha
+18 silly aa-alpha
+19 silly runScript preinstall mobx-todo
+20 silly mobx-todo
+21 verbose hoist enabled for "**"
+22 silly hasMatchingDependency mobx-todo aa-alpha
+23 silly hasMatchingDependency mobx-todo aa-beta
+24 silly hasDependencyInstalled ROOT husky ^0.14.3
+25 silly dependencyIsSatisfied [ 'husky',
+25 silly dependencyIsSatisfied   '^0.14.3',
+25 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+26 verbose dependencyIsSatisfied husky true
+27 silly hasDependencyInstalled ROOT lerna ^2.11.0
+28 silly dependencyIsSatisfied [ 'lerna',
+28 silly dependencyIsSatisfied   '^2.11.0',
+28 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+29 verbose dependencyIsSatisfied lerna true
+30 silly hasDependencyInstalled ROOT prettier ^1.12.1
+31 silly dependencyIsSatisfied [ 'prettier',
+31 silly dependencyIsSatisfied   '^1.12.1',
+31 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+32 verbose dependencyIsSatisfied prettier true
+33 silly hasDependencyInstalled ROOT pretty-quick ^1.4.1
+34 silly dependencyIsSatisfied [ 'pretty-quick',
+34 silly dependencyIsSatisfied   '^1.4.1',
+34 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+35 verbose dependencyIsSatisfied pretty-quick true
+36 silly hasDependencyInstalled ROOT @kadira/storybook ^2.24.0
+37 silly dependencyIsSatisfied [ '@kadira/storybook',
+37 silly dependencyIsSatisfied   '^2.24.0',
+37 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+38 verbose dependencyIsSatisfied @kadira/storybook true
+39 silly hasDependencyInstalled ROOT @kadira/storybook-addon-comments ^1.1.1
+40 silly dependencyIsSatisfied [ '@kadira/storybook-addon-comments',
+40 silly dependencyIsSatisfied   '^1.1.1',
+40 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+41 verbose dependencyIsSatisfied @kadira/storybook-addon-comments true
+42 silly hasDependencyInstalled ROOT @kadira/storybook-database-cloud ^2.2.0
+43 silly dependencyIsSatisfied [ '@kadira/storybook-database-cloud',
+43 silly dependencyIsSatisfied   '^2.2.0',
+43 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+44 verbose dependencyIsSatisfied @kadira/storybook-database-cloud true
+45 silly hasDependencyInstalled ROOT @kadira/storybook-deployer ^1.0.0
+46 silly dependencyIsSatisfied [ '@kadira/storybook-deployer',
+46 silly dependencyIsSatisfied   '^1.0.0',
+46 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+47 verbose dependencyIsSatisfied @kadira/storybook-deployer true
+48 silly hasDependencyInstalled ROOT @percy-io/react-percy-storybook ^0.1.12
+49 silly dependencyIsSatisfied [ '@percy-io/react-percy-storybook',
+49 silly dependencyIsSatisfied   '^0.1.12',
+49 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+50 verbose dependencyIsSatisfied @percy-io/react-percy-storybook true
+51 silly hasDependencyInstalled ROOT babel-core ^6.9.1
+52 silly dependencyIsSatisfied [ 'babel-core',
+52 silly dependencyIsSatisfied   '^6.9.1',
+52 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+53 verbose dependencyIsSatisfied babel-core true
+54 silly hasDependencyInstalled ROOT babel-loader ^7.1.2
+55 silly dependencyIsSatisfied [ 'babel-loader',
+55 silly dependencyIsSatisfied   '^7.1.2',
+55 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+56 verbose dependencyIsSatisfied babel-loader true
+57 silly hasDependencyInstalled ROOT babel-plugin-transform-decorators-legacy ^1.3.4
+58 silly dependencyIsSatisfied [ 'babel-plugin-transform-decorators-legacy',
+58 silly dependencyIsSatisfied   '^1.3.4',
+58 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+59 verbose dependencyIsSatisfied babel-plugin-transform-decorators-legacy true
+60 silly hasDependencyInstalled ROOT babel-preset-es2015 ^6.9.0
+61 silly dependencyIsSatisfied [ 'babel-preset-es2015',
+61 silly dependencyIsSatisfied   '^6.9.0',
+61 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+62 verbose dependencyIsSatisfied babel-preset-es2015 true
+63 silly hasDependencyInstalled ROOT babel-preset-react ^6.5.0
+64 silly dependencyIsSatisfied [ 'babel-preset-react',
+64 silly dependencyIsSatisfied   '^6.5.0',
+64 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+65 verbose dependencyIsSatisfied babel-preset-react true
+66 silly hasDependencyInstalled ROOT babel-preset-stage-1 ^6.5.0
+67 silly dependencyIsSatisfied [ 'babel-preset-stage-1',
+67 silly dependencyIsSatisfied   '^6.5.0',
+67 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+68 verbose dependencyIsSatisfied babel-preset-stage-1 true
+69 silly hasDependencyInstalled ROOT webpack ^3.5.5
+70 silly dependencyIsSatisfied [ 'webpack',
+70 silly dependencyIsSatisfied   '^3.5.5',
+70 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+71 verbose dependencyIsSatisfied webpack true
+72 silly hasDependencyInstalled ROOT webpack-dev-server ^2.7.1
+73 silly dependencyIsSatisfied [ 'webpack-dev-server',
+73 silly dependencyIsSatisfied   '^2.7.1',
+73 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+74 verbose dependencyIsSatisfied webpack-dev-server true
+75 silly hasDependencyInstalled ROOT raw-loader ^0.5.1
+76 silly dependencyIsSatisfied [ 'raw-loader',
+76 silly dependencyIsSatisfied   '^0.5.1',
+76 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+77 verbose dependencyIsSatisfied raw-loader true
+78 silly hasDependencyInstalled ROOT react-addons-test-utils ^15.0.1
+79 silly dependencyIsSatisfied [ 'react-addons-test-utils',
+79 silly dependencyIsSatisfied   '^15.0.1',
+79 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+80 verbose dependencyIsSatisfied react-addons-test-utils true
+81 silly hasDependencyInstalled ROOT style-loader ^0.12.3
+82 silly dependencyIsSatisfied [ 'style-loader',
+82 silly dependencyIsSatisfied   '^0.12.3',
+82 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+83 verbose dependencyIsSatisfied style-loader true
+84 silly hasDependencyInstalled ROOT design-alpha ^0.0.3
+85 silly dependencyIsSatisfied [ 'design-alpha',
+85 silly dependencyIsSatisfied   '^0.0.3',
+85 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+86 verbose dependencyIsSatisfied design-alpha false
+87 silly hasDependencyInstalled ROOT axios ^0.18.0
+88 silly dependencyIsSatisfied [ 'axios',
+88 silly dependencyIsSatisfied   '^0.18.0',
+88 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+89 verbose dependencyIsSatisfied axios true
+90 silly hasDependencyInstalled ROOT mobx ^3.0.0
+91 silly dependencyIsSatisfied [ 'mobx',
+91 silly dependencyIsSatisfied   '^3.0.0',
+91 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+92 verbose dependencyIsSatisfied mobx true
+93 silly hasDependencyInstalled ROOT mobx-react ^4.1.0
+94 silly dependencyIsSatisfied [ 'mobx-react',
+94 silly dependencyIsSatisfied   '^4.1.0',
+94 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+95 verbose dependencyIsSatisfied mobx-react true
+96 silly hasDependencyInstalled ROOT mobx-react-devtools ^4.2.11
+97 silly dependencyIsSatisfied [ 'mobx-react-devtools',
+97 silly dependencyIsSatisfied   '^4.2.11',
+97 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+98 verbose dependencyIsSatisfied mobx-react-devtools true
+99 silly hasDependencyInstalled ROOT react ^15.1.0
+100 silly dependencyIsSatisfied [ 'react',
+100 silly dependencyIsSatisfied   '^15.1.0',
+100 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+101 verbose dependencyIsSatisfied react true
+102 silly hasDependencyInstalled ROOT react-dom ^15.1.0
+103 silly dependencyIsSatisfied [ 'react-dom',
+103 silly dependencyIsSatisfied   '^15.1.0',
+103 silly dependencyIsSatisfied   '/home/magic/Desktop/mobx-todo/node_modules' ]
+104 verbose dependencyIsSatisfied react-dom true
+105 silly root dependencies [
+105 silly root dependencies   {
+105 silly root dependencies     "name": "husky",
+105 silly root dependencies     "dependents": [],
+105 silly root dependencies     "dependency": "husky@^0.14.3",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "lerna",
+105 silly root dependencies     "dependents": [],
+105 silly root dependencies     "dependency": "lerna@^2.11.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "prettier",
+105 silly root dependencies     "dependents": [],
+105 silly root dependencies     "dependency": "prettier@^1.12.1",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "pretty-quick",
+105 silly root dependencies     "dependents": [],
+105 silly root dependencies     "dependency": "pretty-quick@^1.4.1",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "@kadira/storybook",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "@kadira/storybook@^2.24.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "@kadira/storybook-addon-comments",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "@kadira/storybook-addon-comments@^1.1.1",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "@kadira/storybook-database-cloud",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "@kadira/storybook-database-cloud@^2.2.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "@kadira/storybook-deployer",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "@kadira/storybook-deployer@^1.0.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "@percy-io/react-percy-storybook",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "@percy-io/react-percy-storybook@^0.1.12",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "babel-core",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "babel-core@^6.9.1",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "babel-loader",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "babel-loader@^7.1.2",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "babel-plugin-transform-decorators-legacy",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "babel-plugin-transform-decorators-legacy@^1.3.4",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "babel-preset-es2015",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "babel-preset-es2015@^6.9.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "babel-preset-react",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "babel-preset-react@^6.5.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "babel-preset-stage-1",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "babel-preset-stage-1@^6.5.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "webpack",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "webpack@^3.5.5",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "webpack-dev-server",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "webpack-dev-server@^2.7.1",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "raw-loader",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "raw-loader@^0.5.1",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "react-addons-test-utils",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "react-addons-test-utils@^15.0.1",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "style-loader",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "style-loader@^0.12.3",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "design-alpha",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "design-alpha@^0.0.3",
+105 silly root dependencies     "isSatisfied": false
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "axios",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "axios@^0.18.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "mobx",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "mobx@^3.0.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "mobx-react",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "mobx-react@^4.1.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "mobx-react-devtools",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "mobx-react-devtools@^4.2.11",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "react",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "react@^15.1.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   },
+105 silly root dependencies   {
+105 silly root dependencies     "name": "react-dom",
+105 silly root dependencies     "dependents": [
+105 silly root dependencies       {
+105 silly root dependencies         "name": "mobx-todo",
+105 silly root dependencies         "version": "1.0.0",
+105 silly root dependencies         "description": "mobx todo",
+105 silly root dependencies         "scripts": {
+105 silly root dependencies           "start": "webpack-dev-server --hot --open",
+105 silly root dependencies           "storybook": "start-storybook -p 9001",
+105 silly root dependencies           "lint": "eslint src"
+105 silly root dependencies         },
+105 silly root dependencies         "keywords": [
+105 silly root dependencies           "react",
+105 silly root dependencies           "reactjs",
+105 silly root dependencies           "mobx",
+105 silly root dependencies           "starter-kit"
+105 silly root dependencies         ],
+105 silly root dependencies         "author": "Ankit",
+105 silly root dependencies         "license": "MIT",
+105 silly root dependencies         "bugs": {
+105 silly root dependencies           "url": "https://github.com/mobxjs/mobx/issues"
+105 silly root dependencies         },
+105 silly root dependencies         "homepage": "http://mobxjs.github.com/mobx",
+105 silly root dependencies         "devDependencies": {
+105 silly root dependencies           "@kadira/storybook": "^2.24.0",
+105 silly root dependencies           "@kadira/storybook-addon-comments": "^1.1.1",
+105 silly root dependencies           "@kadira/storybook-database-cloud": "^2.2.0",
+105 silly root dependencies           "@kadira/storybook-deployer": "^1.0.0",
+105 silly root dependencies           "@percy-io/react-percy-storybook": "^0.1.12",
+105 silly root dependencies           "babel-core": "^6.9.1",
+105 silly root dependencies           "babel-loader": "^7.1.2",
+105 silly root dependencies           "babel-plugin-transform-decorators-legacy": "^1.3.4",
+105 silly root dependencies           "babel-preset-es2015": "^6.9.0",
+105 silly root dependencies           "babel-preset-react": "^6.5.0",
+105 silly root dependencies           "babel-preset-stage-1": "^6.5.0",
+105 silly root dependencies           "webpack": "^3.5.5",
+105 silly root dependencies           "webpack-dev-server": "^2.7.1",
+105 silly root dependencies           "raw-loader": "^0.5.1",
+105 silly root dependencies           "react-addons-test-utils": "^15.0.1",
+105 silly root dependencies           "style-loader": "^0.12.3"
+105 silly root dependencies         },
+105 silly root dependencies         "dependencies": {
+105 silly root dependencies           "aa-alpha": "^0.0.3",
+105 silly root dependencies           "aa-beta": "^0.0.3",
+105 silly root dependencies           "design-alpha": "^0.0.3",
+105 silly root dependencies           "axios": "^0.18.0",
+105 silly root dependencies           "mobx": "^3.0.0",
+105 silly root dependencies           "mobx-react": "^4.1.0",
+105 silly root dependencies           "mobx-react-devtools": "^4.2.11",
+105 silly root dependencies           "react": "^15.1.0",
+105 silly root dependencies           "react-dom": "^15.1.0"
+105 silly root dependencies         }
+105 silly root dependencies       }
+105 silly root dependencies     ],
+105 silly root dependencies     "dependency": "react-dom@^15.1.0",
+105 silly root dependencies     "isSatisfied": true
+105 silly root dependencies   }
+105 silly root dependencies ]
+106 silly leaf dependencies {}
+107 info Installing external dependencies
+108 verbose actions 2 actions, concurrency 4
+109 info hoist Installing hoisted dependencies into root
+110 silly installInDir mobx-todo [ 'husky@^0.14.3',
+110 silly installInDir   'lerna@^2.11.0',
+110 silly installInDir   'prettier@^1.12.1',
+110 silly installInDir   'pretty-quick@^1.4.1',
+110 silly installInDir   '@kadira/storybook@^2.24.0',
+110 silly installInDir   '@kadira/storybook-addon-comments@^1.1.1',
+110 silly installInDir   '@kadira/storybook-database-cloud@^2.2.0',
+110 silly installInDir   '@kadira/storybook-deployer@^1.0.0',
+110 silly installInDir   '@percy-io/react-percy-storybook@^0.1.12',
+110 silly installInDir   'babel-core@^6.9.1',
+110 silly installInDir   'babel-loader@^7.1.2',
+110 silly installInDir   'babel-plugin-transform-decorators-legacy@^1.3.4',
+110 silly installInDir   'babel-preset-es2015@^6.9.0',
+110 silly installInDir   'babel-preset-react@^6.5.0',
+110 silly installInDir   'babel-preset-stage-1@^6.5.0',
+110 silly installInDir   'webpack@^3.5.5',
+110 silly installInDir   'webpack-dev-server@^2.7.1',
+110 silly installInDir   'raw-loader@^0.5.1',
+110 silly installInDir   'react-addons-test-utils@^15.0.1',
+110 silly installInDir   'style-loader@^0.12.3',
+110 silly installInDir   'design-alpha@^0.0.3',
+110 silly installInDir   'axios@^0.18.0',
+110 silly installInDir   'mobx@^3.0.0',
+110 silly installInDir   'mobx-react@^4.1.0',
+110 silly installInDir   'mobx-react-devtools@^4.2.11',
+110 silly installInDir   'react@^15.1.0',
+110 silly installInDir   'react-dom@^15.1.0' ]
+111 silly installInDir backup /home/magic/Desktop/mobx-todo/package.json
+112 silly rename [ '/home/magic/Desktop/mobx-todo/package.json',
+112 silly rename   '/home/magic/Desktop/mobx-todo/package.json.lerna_backup' ]
+113 info hoist Pruning hoisted dependencies
+114 silly prune [ '/home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook-addon-comments',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook-database-cloud',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook-deployer',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/@percy-io/react-percy-storybook',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/babel-core',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/babel-loader',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/babel-plugin-transform-decorators-legacy',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/babel-preset-es2015',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/babel-preset-react',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/babel-preset-stage-1',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/webpack',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/webpack-dev-server',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/raw-loader',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/react-addons-test-utils',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/style-loader',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/design-alpha',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/axios',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/mobx',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/mobx-react',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/mobx-react-devtools',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/react',
+114 silly prune   '/home/magic/Desktop/mobx-todo/website/node_modules/react-dom' ]
+115 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook
+116 silly installInDir writing tempJson { dependencies:
+116 silly installInDir    { husky: '^0.14.3',
+116 silly installInDir      lerna: '^2.11.0',
+116 silly installInDir      prettier: '^1.12.1',
+116 silly installInDir      'pretty-quick': '^1.4.1',
+116 silly installInDir      '@kadira/storybook': '^2.24.0',
+116 silly installInDir      '@kadira/storybook-addon-comments': '^1.1.1',
+116 silly installInDir      '@kadira/storybook-database-cloud': '^2.2.0',
+116 silly installInDir      '@kadira/storybook-deployer': '^1.0.0',
+116 silly installInDir      '@percy-io/react-percy-storybook': '^0.1.12',
+116 silly installInDir      'babel-core': '^6.9.1',
+116 silly installInDir      'babel-loader': '^7.1.2',
+116 silly installInDir      'babel-plugin-transform-decorators-legacy': '^1.3.4',
+116 silly installInDir      'babel-preset-es2015': '^6.9.0',
+116 silly installInDir      'babel-preset-react': '^6.5.0',
+116 silly installInDir      'babel-preset-stage-1': '^6.5.0',
+116 silly installInDir      webpack: '^3.5.5',
+116 silly installInDir      'webpack-dev-server': '^2.7.1',
+116 silly installInDir      'raw-loader': '^0.5.1',
+116 silly installInDir      'react-addons-test-utils': '^15.0.1',
+116 silly installInDir      'style-loader': '^0.12.3',
+116 silly installInDir      'design-alpha': '^0.0.3',
+116 silly installInDir      axios: '^0.18.0',
+116 silly installInDir      mobx: '^3.0.0',
+116 silly installInDir      'mobx-react': '^4.1.0',
+116 silly installInDir      'mobx-react-devtools': '^4.2.11',
+116 silly installInDir      react: '^15.1.0',
+116 silly installInDir      'react-dom': '^15.1.0' } }
+117 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook
+118 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook-addon-comments
+119 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook-addon-comments
+120 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook-database-cloud
+121 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook-database-cloud
+122 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook-deployer
+123 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/@kadira/storybook-deployer
+124 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/@percy-io/react-percy-storybook
+125 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/@percy-io/react-percy-storybook
+126 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/babel-core
+127 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/babel-core
+128 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/babel-loader
+129 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/babel-loader
+130 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/babel-plugin-transform-decorators-legacy
+131 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/babel-plugin-transform-decorators-legacy
+132 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/babel-preset-es2015
+133 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/babel-preset-es2015
+134 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/babel-preset-react
+135 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/babel-preset-react
+136 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/babel-preset-stage-1
+137 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/babel-preset-stage-1
+138 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/webpack
+139 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/webpack
+140 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/webpack-dev-server
+141 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/webpack-dev-server
+142 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/raw-loader
+143 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/raw-loader
+144 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/react-addons-test-utils
+145 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/react-addons-test-utils
+146 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/style-loader
+147 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/style-loader
+148 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/design-alpha
+149 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/design-alpha
+150 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/axios
+151 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/axios
+152 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/mobx
+153 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/mobx
+154 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/mobx-react
+155 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/mobx-react
+156 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/mobx-react-devtools
+157 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/mobx-react-devtools
+158 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/react
+159 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/react
+160 silly rimraf /home/magic/Desktop/mobx-todo/website/node_modules/react-dom
+161 verbose prune /home/magic/Desktop/mobx-todo/website/node_modules/react-dom
+162 info hoist Finished pruning hoisted dependencies
+163 silly getExecOpts { cwd: '/home/magic/Desktop/mobx-todo' }
+164 silly installInDir [ 'npm', [ 'install' ] ]
+165 silly installInDir cleanup /home/magic/Desktop/mobx-todo/package.json
+166 silly renameSync [ '/home/magic/Desktop/mobx-todo/package.json.lerna_backup',
+166 silly renameSync   '/home/magic/Desktop/mobx-todo/package.json' ]
+167 error execute callback with error
+168 error Error: Command failed: npm install
+168 error npm WARN notice Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".
+168 error npm WARN notice Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".
+168 error npm ERR! code E404
+168 error npm ERR! 404 Not Found: design-alpha@^0.0.3
+168 error
+168 error npm ERR! A complete log of this run can be found in:
+168 error npm ERR!     /home/magic/.npm/_logs/2018-07-13T12_13_55_616Z-debug.log
+168 error
+168 error     at Promise.all.then.arr (/home/magic/Desktop/mobx-todo/node_modules/execa/index.js:236:11)
+168 error     at <anonymous>
