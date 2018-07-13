@@ -1,5 +1,5 @@
-mobx-react-boilerplate
-=====================
+# mobx-react-boilerplate
+
 Technology Used
 React
 Mobx
@@ -8,18 +8,17 @@ Storybook
 
 ### Run the example
 
-```
-npm install
-npm start
-```
+/_ Use lerna _/
 
-
-/*Use lerna*/
 npm run postinstall
 
+/_ Install storybook _/
 
-/*Install storybook*/
 npm i -g getstorybook
 cd website
 getstorybook
 
+```
+npm install
+npm start
+```
