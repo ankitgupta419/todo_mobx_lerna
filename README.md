@@ -9,7 +9,8 @@ Storybook
 ### Run the example
 
 /_ Use lerna _/
-
+lerna bootstrap --hoist
+lerna run prepublish
 npm run postinstall
 
 /_ Install storybook _/

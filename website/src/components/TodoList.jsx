@@ -1,53 +1,69 @@
 import React, { Component } from "react";
 import { observable, action } from "mobx";
 import { observer } from "mobx-react";
-import axios from 'axios';
+import axios from "axios";
 import Todo from "./Todo";
 var aaAlpha = require("aa-alpha");
+import { base } from "uibase";
+const Button = base.Button;
+const Input = base.Input;
+const Ul = base.Ul;
+const H1 = base.H1;
+
 @observer
 class TodoList extends React.Component {
   @observable newTodoTitle = "";
   @observable allUsers = [];
-  constructor(props){
-    super(props)
-    this.state={
-      allUsers:[]
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      allUsers: []
+    };
   }
-  componentDidMount(){
-    axios.get('http://localhost:3030/my-service')
-      .then( (response)=> {
-        
+  componentDidMount() {
+    axios
+      .get("http://localhost:3030/my-service")
+      .then(response => {
         this.setState({
-          allUsers:response.data
-        })
+          allUsers: response.data
+        });
       })
-      .catch(function (error) {
+      .catch(function(error) {
         console.log(error);
       });
   }
   render() {
     return (
       <div>
+        <H1>TODO</H1>
         <form onSubmit={this.handleFormSubmit}>
           New Todo:
-          <input
+          <Input
             type="text"
             value={this.newTodoTitle}
             onChange={this.handleInputChange}
           />
-          <button type="submit">Add</button>
+          <Button type="submit">Add</Button>
         </form>
         <hr />
-        <ul>
+        <Ul>
           {this.props.store.todos.map(todo => (
             <Todo todo={todo} key={todo.id} />
           ))}
-        </ul>
+        </Ul>
         Tasks left: {this.props.store.unfinishedTodoCount}
         <div>
-        {this.state.allUsers.map((user,i) => (
-            <div key={i}>{aaAlpha.setDecoratorTags(user.name)}</div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <h2>Winner List</h2>
+          {this.state.allUsers.map((user, i) => (
+            <div key={i}>
+              <span>{i + 1 + ")     "}</span>
+              <span>{aaAlpha.setDecoratorTags(user.name)}</span>
+              <span>{" " + user.address}</span>
+            </div>
           ))}
         </div>
       </div>

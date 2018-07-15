@@ -2,12 +2,10 @@ import React from "react";
 import { render } from "react-dom";
 import TodoList from "./components/TodoList";
 import TodoListModel from "./models/TodoListModel";
-var aaBeta = require("aa-beta");
 const store = new TodoListModel();
 render(
   <div>
     <TodoList store={store} />
-    <div>aaBeta</div>
   </div>,
   document.getElementById("root")
 );

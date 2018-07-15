@@ -1,0 +1,24 @@
+{
+  "name": "uibase",
+  "version": "1.0.0",
+  "description": "UI Base Component Library",
+  "main": "./lib/index.js",
+  "private": true,
+  "scripts": {
+    "test": "jest --coverage",
+    "clean": "rm -rf lib/*",
+    "prepublish": "babel src --out-dir lib",
+    "prepublishWatch": "babel src --out-dir lib -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Private",
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-test-renderer": "^16.4.0",
+    "styled-components": "^3.3.0",
+    "styled-system": "^2.2.5"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
