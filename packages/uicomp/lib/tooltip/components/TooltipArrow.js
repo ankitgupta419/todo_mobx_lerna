@@ -7,39 +7,39 @@ exports.TooltipArrow = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
     [
-      "\n    bottom: 0;\n    width: 100%;\n    left: 42%;\n    &::before {\n      top: 0;\n      border-width: 0.4rem 0.4rem 0;\n      border-top-color: #000;\n    };\n  "
+      "\n    bottom: 0;\n    width: 100%;\n    left: 42%;\n    &::before {\n      top: 0;\n      border-width: 0.4rem 0.4rem 0;\n      border-top-color: #000;\n    }\n  "
     ],
     [
-      "\n    bottom: 0;\n    width: 100%;\n    left: 42%;\n    &::before {\n      top: 0;\n      border-width: 0.4rem 0.4rem 0;\n      border-top-color: #000;\n    };\n  "
+      "\n    bottom: 0;\n    width: 100%;\n    left: 42%;\n    &::before {\n      top: 0;\n      border-width: 0.4rem 0.4rem 0;\n      border-top-color: #000;\n    }\n  "
     ]
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
-      "\n    left: 0;\n    width: 0.4rem;\n    height: 100%;\n    top: 28%;\n    &::before {\n      right: 0;\n      border-width: 0.4rem 0.4rem 0.4rem 0;\n      border-right-color: #000;\n    };\n  "
+      "\n    left: 0;\n    width: 0.4rem;\n    height: 100%;\n    top: 28%;\n    &::before {\n      right: 0;\n      border-width: 0.4rem 0.4rem 0.4rem 0;\n      border-right-color: #000;\n    }\n  "
     ],
     [
-      "\n    left: 0;\n    width: 0.4rem;\n    height: 100%;\n    top: 28%;\n    &::before {\n      right: 0;\n      border-width: 0.4rem 0.4rem 0.4rem 0;\n      border-right-color: #000;\n    };\n  "
+      "\n    left: 0;\n    width: 0.4rem;\n    height: 100%;\n    top: 28%;\n    &::before {\n      right: 0;\n      border-width: 0.4rem 0.4rem 0.4rem 0;\n      border-right-color: #000;\n    }\n  "
     ]
   ),
   _templateObject3 = _taggedTemplateLiteral(
     [
-      "\n      top: 0;\n      width: 100%;\n      left: 42%;\n      &::before {\n        bottom: 0;\n        border-width: 0 0.4rem 0.4rem;\n        border-bottom-color: #000;\n      };\n    "
+      "\n    top: 0;\n    width: 100%;\n    left: 42%;\n    &::before {\n      bottom: 0;\n      border-width: 0 0.4rem 0.4rem;\n      border-bottom-color: #000;\n    }\n  "
     ],
     [
-      "\n      top: 0;\n      width: 100%;\n      left: 42%;\n      &::before {\n        bottom: 0;\n        border-width: 0 0.4rem 0.4rem;\n        border-bottom-color: #000;\n      };\n    "
+      "\n    top: 0;\n    width: 100%;\n    left: 42%;\n    &::before {\n      bottom: 0;\n      border-width: 0 0.4rem 0.4rem;\n      border-bottom-color: #000;\n    }\n  "
     ]
   ),
   _templateObject4 = _taggedTemplateLiteral(
     [
-      "\n    right: 0;\n    width: 0.4rem;\n    height: 100%;\n    top: 28%;\n    &::before {\n      left: 0;\n      border-width: 0.4rem 0 0.4rem 0.4rem;\n      border-left-color: #000;\n    };\n  "
+      "\n    right: 0;\n    width: 0.4rem;\n    height: 100%;\n    top: 28%;\n    &::before {\n      left: 0;\n      border-width: 0.4rem 0 0.4rem 0.4rem;\n      border-left-color: #000;\n    }\n  "
     ],
     [
-      "\n    right: 0;\n    width: 0.4rem;\n    height: 100%;\n    top: 28%;\n    &::before {\n      left: 0;\n      border-width: 0.4rem 0 0.4rem 0.4rem;\n      border-left-color: #000;\n    };\n  "
+      "\n    right: 0;\n    width: 0.4rem;\n    height: 100%;\n    top: 28%;\n    &::before {\n      left: 0;\n      border-width: 0.4rem 0 0.4rem 0.4rem;\n      border-left-color: #000;\n    }\n  "
     ]
   ),
   _templateObject5 = _taggedTemplateLiteral(
     [
-      '\n  position: absolute;\n  display: block;\n  width: 0.8rem;\n  height: 0.4rem;\n  &::before {\n    position: absolute;\n    content: "";\n    border-color: transparent;\n    border-style: solid;\n  };\n  ',
+      '\n  position: absolute;\n  display: block;\n  width: 0.8rem;\n  height: 0.4rem;\n  &::before {\n    position: absolute;\n    content: "";\n    border-color: transparent;\n    border-style: solid;\n  }\n  ',
       ";\n  ",
       ";\n  ",
       ";\n  ",
@@ -57,7 +57,7 @@ var _templateObject = _taggedTemplateLiteral(
       ";\n"
     ],
     [
-      '\n  position: absolute;\n  display: block;\n  width: 0.8rem;\n  height: 0.4rem;\n  &::before {\n    position: absolute;\n    content: "";\n    border-color: transparent;\n    border-style: solid;\n  };\n  ',
+      '\n  position: absolute;\n  display: block;\n  width: 0.8rem;\n  height: 0.4rem;\n  &::before {\n    position: absolute;\n    content: "";\n    border-color: transparent;\n    border-style: solid;\n  }\n  ',
       ";\n  ",
       ";\n  ",
       ";\n  ",

@@ -31,37 +31,37 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject7 = _taggedTemplateLiteral(
     [
-      "\n    border-bottom: 1px solid #dee2e6;\n    & > a {\n      margin-bottom: -1px;\n    }\n    "
+      "\n    border-bottom: 1px solid #dee2e6;\n    & > a {\n      margin-bottom: -1px;\n    }\n  "
     ],
     [
-      "\n    border-bottom: 1px solid #dee2e6;\n    & > a {\n      margin-bottom: -1px;\n    }\n    "
+      "\n    border-bottom: 1px solid #dee2e6;\n    & > a {\n      margin-bottom: -1px;\n    }\n  "
     ]
   ),
   _templateObject8 = _taggedTemplateLiteral(
     [
       "\n      @media (max-width: ",
-      ") {\n        display: flex;\n        flex-basis: auto;\n        flex-direction: column;\n        & > a {\n          padding-right: 0.5rem;\n          padding-left: 0.5rem;\n          flex: 1;\n          text-align: left;\n        };\n      };\n    "
+      ") {\n        display: flex;\n        flex-basis: auto;\n        flex-direction: column;\n        & > a {\n          padding-right: 0.5rem;\n          padding-left: 0.5rem;\n          flex: 1;\n          text-align: left;\n        }\n      }\n    "
     ],
     [
       "\n      @media (max-width: ",
-      ") {\n        display: flex;\n        flex-basis: auto;\n        flex-direction: column;\n        & > a {\n          padding-right: 0.5rem;\n          padding-left: 0.5rem;\n          flex: 1;\n          text-align: left;\n        };\n      };\n    "
+      ") {\n        display: flex;\n        flex-basis: auto;\n        flex-direction: column;\n        & > a {\n          padding-right: 0.5rem;\n          padding-left: 0.5rem;\n          flex: 1;\n          text-align: left;\n        }\n      }\n    "
     ]
   ),
   _templateObject9 = _taggedTemplateLiteral(
     [
       "\n      @media (max-width: ",
-      ") {\n        display: none;\n        flex-basis: auto;\n        flex-direction: column;\n        & > a {\n          padding-right: 0.5rem;\n          padding-left: 0.5rem;\n          flex: 1;\n          text-align: left;\n        };\n      };\n    "
+      ") {\n        display: none;\n        flex-basis: auto;\n        flex-direction: column;\n        & > a {\n          padding-right: 0.5rem;\n          padding-left: 0.5rem;\n          flex: 1;\n          text-align: left;\n        }\n      }\n    "
     ],
     [
       "\n      @media (max-width: ",
-      ") {\n        display: none;\n        flex-basis: auto;\n        flex-direction: column;\n        & > a {\n          padding-right: 0.5rem;\n          padding-left: 0.5rem;\n          flex: 1;\n          text-align: left;\n        };\n      };\n    "
+      ") {\n        display: none;\n        flex-basis: auto;\n        flex-direction: column;\n        & > a {\n          padding-right: 0.5rem;\n          padding-left: 0.5rem;\n          flex: 1;\n          text-align: left;\n        }\n      }\n    "
     ]
   ),
   _templateObject10 = _taggedTemplateLiteral(
     [
       "\n  display: flex;\n  flex-wrap: wrap;\n  padding-left: 0;\n  margin-bottom: 0;\n  list-style: none;\n  & > a {\n    text-decoration: none;\n    ",
       ";\n    ",
-      ";\n  };\n  &:last-child {\n    flex: 1;\n  };\n  ",
+      ";\n  }\n  &:last-child {\n    flex: 1;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",
@@ -83,7 +83,7 @@ var _templateObject = _taggedTemplateLiteral(
     [
       "\n  display: flex;\n  flex-wrap: wrap;\n  padding-left: 0;\n  margin-bottom: 0;\n  list-style: none;\n  & > a {\n    text-decoration: none;\n    ",
       ";\n    ",
-      ";\n  };\n  &:last-child {\n    flex: 1;\n  };\n  ",
+      ";\n  }\n  &:last-child {\n    flex: 1;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",

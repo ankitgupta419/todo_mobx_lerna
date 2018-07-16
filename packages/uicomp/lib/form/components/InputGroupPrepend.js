@@ -7,7 +7,7 @@ exports.InputGroupPrepend = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    "\n  display: flex;\n  margin-right: -1px;\n  & > button {\n    position: relative;\n    z-index: 2;\n  };\n  & > span,\n  & > button {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n    &:not(:first-child) {\n      margin-left: -1px;\n      border-top-left-radius: 0;\n      border-bottom-left-radius: 0;\n    };\n  };\n  ",
+    "\n  display: flex;\n  margin-right: -1px;\n  & > button {\n    position: relative;\n    z-index: 2;\n  }\n  & > span,\n  & > button {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n    &:not(:first-child) {\n      margin-left: -1px;\n      border-top-left-radius: 0;\n      border-bottom-left-radius: 0;\n    }\n  }\n  ",
     ";\n  ",
     ";\n  ",
     ";\n  ",
@@ -21,7 +21,7 @@ var _templateObject = _taggedTemplateLiteral(
     ";\n"
   ],
   [
-    "\n  display: flex;\n  margin-right: -1px;\n  & > button {\n    position: relative;\n    z-index: 2;\n  };\n  & > span,\n  & > button {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n    &:not(:first-child) {\n      margin-left: -1px;\n      border-top-left-radius: 0;\n      border-bottom-left-radius: 0;\n    };\n  };\n  ",
+    "\n  display: flex;\n  margin-right: -1px;\n  & > button {\n    position: relative;\n    z-index: 2;\n  }\n  & > span,\n  & > button {\n    border-top-right-radius: 0;\n    border-bottom-right-radius: 0;\n    &:not(:first-child) {\n      margin-left: -1px;\n      border-top-left-radius: 0;\n      border-bottom-left-radius: 0;\n    }\n  }\n  ",
     ";\n  ",
     ";\n  ",
     ";\n  ",

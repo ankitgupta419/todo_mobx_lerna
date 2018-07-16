@@ -4,3 +4,6 @@ npm-debug.log
 .DS_Store
 package-lock.json
 website/package-lock.json
+packages/uibase/lib/
+packages/uicomp/lib
+packages/uicomp/node_modules

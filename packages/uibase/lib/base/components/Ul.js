@@ -7,10 +7,10 @@ exports.Ul = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    "\n  margin-top: 0;\n  margin-bottom: 1rem;\n  & > ul {\n    margin-bottom: 0;\n  };\n  & > ol {\n    margin-bottom: 0;\n  };\n"
+    "\n  margin-top: 0;\n  margin-bottom: 1rem;\n  & > ul {\n    margin-bottom: 0;\n  }\n  & > ol {\n    margin-bottom: 0;\n  }\n"
   ],
   [
-    "\n  margin-top: 0;\n  margin-bottom: 1rem;\n  & > ul {\n    margin-bottom: 0;\n  };\n  & > ol {\n    margin-bottom: 0;\n  };\n"
+    "\n  margin-top: 0;\n  margin-bottom: 1rem;\n  & > ul {\n    margin-bottom: 0;\n  }\n  & > ol {\n    margin-bottom: 0;\n  }\n"
   ]
 );
 

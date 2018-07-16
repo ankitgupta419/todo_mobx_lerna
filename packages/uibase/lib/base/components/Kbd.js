@@ -7,10 +7,10 @@ exports.Kbd = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;\n  padding: 0.2rem 0.4rem;\n  font-size: 87.5%;\n  color: #fff;\n  background-color: #212529;\n  border-radius: 0.2rem;\n  & > kbd {  \n    padding: 0;\n    font-size: 100%;\n    font-weight: 700;\n  };\n'
+    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",\n    "Courier New", monospace;\n  padding: 0.2rem 0.4rem;\n  font-size: 87.5%;\n  color: #fff;\n  background-color: #212529;\n  border-radius: 0.2rem;\n  & > kbd {\n    padding: 0;\n    font-size: 100%;\n    font-weight: 700;\n  }\n'
   ],
   [
-    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;\n  padding: 0.2rem 0.4rem;\n  font-size: 87.5%;\n  color: #fff;\n  background-color: #212529;\n  border-radius: 0.2rem;\n  & > kbd {  \n    padding: 0;\n    font-size: 100%;\n    font-weight: 700;\n  };\n'
+    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",\n    "Courier New", monospace;\n  padding: 0.2rem 0.4rem;\n  font-size: 87.5%;\n  color: #fff;\n  background-color: #212529;\n  border-radius: 0.2rem;\n  & > kbd {\n    padding: 0;\n    font-size: 100%;\n    font-weight: 700;\n  }\n'
   ]
 );
 

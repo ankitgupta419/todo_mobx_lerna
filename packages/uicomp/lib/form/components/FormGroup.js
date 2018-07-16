@@ -8,19 +8,19 @@ exports.FormGroup = undefined;
 var _templateObject = _taggedTemplateLiteral(
     [
       "\n    @media (min-width: ",
-      ") {\n      display: flex;\n      flex: 0 0 auto;\n      flex-flow: row wrap;\n      align-items: center;\n      margin-bottom: 0;\n    };\n  "
+      ") {\n      display: flex;\n      flex: 0 0 auto;\n      flex-flow: row wrap;\n      align-items: center;\n      margin-bottom: 0;\n    }\n  "
     ],
     [
       "\n    @media (min-width: ",
-      ") {\n      display: flex;\n      flex: 0 0 auto;\n      flex-flow: row wrap;\n      align-items: center;\n      margin-bottom: 0;\n    };\n  "
+      ") {\n      display: flex;\n      flex: 0 0 auto;\n      flex-flow: row wrap;\n      align-items: center;\n      margin-bottom: 0;\n    }\n  "
     ]
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
-      "\n    display: flex;\n    flex-wrap: wrap;\n    margin-right: -5px;\n    margin-left: -5px;\n    & > div > label {\n      margin-bottom: 0;\n    };\n  "
+      "\n    display: flex;\n    flex-wrap: wrap;\n    margin-right: -5px;\n    margin-left: -5px;\n    & > div > label {\n      margin-bottom: 0;\n    }\n  "
     ],
     [
-      "\n    display: flex;\n    flex-wrap: wrap;\n    margin-right: -5px;\n    margin-left: -5px;\n    & > div > label {\n      margin-bottom: 0;\n    };\n  "
+      "\n    display: flex;\n    flex-wrap: wrap;\n    margin-right: -5px;\n    margin-left: -5px;\n    & > div > label {\n      margin-bottom: 0;\n    }\n  "
     ]
   ),
   _templateObject3 = _taggedTemplateLiteral(
@@ -33,18 +33,18 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject5 = _taggedTemplateLiteral(
     [
-      "\n    & > label, & > div > label {\n      padding-top: calc(0.25rem + 1px);\n      padding-bottom: calc(0.25rem + 1px);\n      font-size: 0.875rem;\n      line-height: 1.5;\n    };\n    & > input, & > div > input {\n      padding-right: 0;\n      padding-left: 0;\n      padding: 0.25rem 0.5rem;\n      font-size: 0.875rem;\n      line-height: 1.5;\n      border-radius: 0.2rem;\n    };\n  "
+      "\n    & > label,\n    & > div > label {\n      padding-top: calc(0.25rem + 1px);\n      padding-bottom: calc(0.25rem + 1px);\n      font-size: 0.875rem;\n      line-height: 1.5;\n    }\n    & > input,\n    & > div > input {\n      padding-right: 0;\n      padding-left: 0;\n      padding: 0.25rem 0.5rem;\n      font-size: 0.875rem;\n      line-height: 1.5;\n      border-radius: 0.2rem;\n    }\n  "
     ],
     [
-      "\n    & > label, & > div > label {\n      padding-top: calc(0.25rem + 1px);\n      padding-bottom: calc(0.25rem + 1px);\n      font-size: 0.875rem;\n      line-height: 1.5;\n    };\n    & > input, & > div > input {\n      padding-right: 0;\n      padding-left: 0;\n      padding: 0.25rem 0.5rem;\n      font-size: 0.875rem;\n      line-height: 1.5;\n      border-radius: 0.2rem;\n    };\n  "
+      "\n    & > label,\n    & > div > label {\n      padding-top: calc(0.25rem + 1px);\n      padding-bottom: calc(0.25rem + 1px);\n      font-size: 0.875rem;\n      line-height: 1.5;\n    }\n    & > input,\n    & > div > input {\n      padding-right: 0;\n      padding-left: 0;\n      padding: 0.25rem 0.5rem;\n      font-size: 0.875rem;\n      line-height: 1.5;\n      border-radius: 0.2rem;\n    }\n  "
     ]
   ),
   _templateObject6 = _taggedTemplateLiteral(
     [
-      "\n    & > label, & > div > label {\n      padding-top: calc(0.5rem + 1px);\n      padding-bottom: calc(0.5rem + 1px);\n      font-size: 1.25rem;\n      line-height: 1.5;\n    };\n    & > input, & > div > input {\n      padding-right: 0;\n      padding-left: 0;\n      padding: 0.5rem 1rem;\n      font-size: 1.25rem;\n      line-height: 1.5;\n      border-radius: 0.3rem;\n    };\n  "
+      "\n    & > label,\n    & > div > label {\n      padding-top: calc(0.5rem + 1px);\n      padding-bottom: calc(0.5rem + 1px);\n      font-size: 1.25rem;\n      line-height: 1.5;\n    }\n    & > input,\n    & > div > input {\n      padding-right: 0;\n      padding-left: 0;\n      padding: 0.5rem 1rem;\n      font-size: 1.25rem;\n      line-height: 1.5;\n      border-radius: 0.3rem;\n    }\n  "
     ],
     [
-      "\n    & > label, & > div > label {\n      padding-top: calc(0.5rem + 1px);\n      padding-bottom: calc(0.5rem + 1px);\n      font-size: 1.25rem;\n      line-height: 1.5;\n    };\n    & > input, & > div > input {\n      padding-right: 0;\n      padding-left: 0;\n      padding: 0.5rem 1rem;\n      font-size: 1.25rem;\n      line-height: 1.5;\n      border-radius: 0.3rem;\n    };\n  "
+      "\n    & > label,\n    & > div > label {\n      padding-top: calc(0.5rem + 1px);\n      padding-bottom: calc(0.5rem + 1px);\n      font-size: 1.25rem;\n      line-height: 1.5;\n    }\n    & > input,\n    & > div > input {\n      padding-right: 0;\n      padding-left: 0;\n      padding: 0.5rem 1rem;\n      font-size: 1.25rem;\n      line-height: 1.5;\n      border-radius: 0.3rem;\n    }\n  "
     ]
   ),
   _templateObject7 = _taggedTemplateLiteral(

@@ -14,7 +14,7 @@ var _templateObject = _taggedTemplateLiteral(
   _templateObject2 = _taggedTemplateLiteral(
     [
       "\n  padding: 2rem 1rem;\n  margin-bottom: 2rem;\n  background-color: #e9ecef;\n  border-radius: 0.3rem;\n  @media (min-width: ",
-      ") {\n    padding: 4rem 2rem;\n  };\n  ",
+      ") {\n    padding: 4rem 2rem;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",
@@ -30,7 +30,7 @@ var _templateObject = _taggedTemplateLiteral(
     ],
     [
       "\n  padding: 2rem 1rem;\n  margin-bottom: 2rem;\n  background-color: #e9ecef;\n  border-radius: 0.3rem;\n  @media (min-width: ",
-      ") {\n    padding: 4rem 2rem;\n  };\n  ",
+      ") {\n    padding: 4rem 2rem;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",

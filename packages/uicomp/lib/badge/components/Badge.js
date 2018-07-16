@@ -15,10 +15,10 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
-      "\n        color: #fff;\n        background-color: #007bff;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover,\n        &:focus {\n          background-color: #0062cc; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #007bff;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #0062cc;\n        }\n      "
     ],
     [
-      "\n        color: #fff;\n        background-color: #007bff;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover,\n        &:focus {\n          background-color: #0062cc; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #007bff;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #0062cc;\n        }\n      "
     ]
   ),
   _templateObject3 = _taggedTemplateLiteral(
@@ -27,10 +27,10 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject4 = _taggedTemplateLiteral(
     [
-      "\n        color: #fff;\n        background-color: #6c757d;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #545b62; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #6c757d;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #545b62;\n        }\n      "
     ],
     [
-      "\n        color: #fff;\n        background-color: #6c757d;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #545b62; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #6c757d;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #545b62;\n        }\n      "
     ]
   ),
   _templateObject5 = _taggedTemplateLiteral(
@@ -39,10 +39,10 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject6 = _taggedTemplateLiteral(
     [
-      "\n        color: #fff;\n        background-color: #28a745;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #1e7e34; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #28a745;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #1e7e34;\n        }\n      "
     ],
     [
-      "\n        color: #fff;\n        background-color: #28a745;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #1e7e34; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #28a745;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #1e7e34;\n        }\n      "
     ]
   ),
   _templateObject7 = _taggedTemplateLiteral(
@@ -51,10 +51,10 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject8 = _taggedTemplateLiteral(
     [
-      "\n        color: #fff;\n        background-color: #17a2b8;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #117a8b; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #17a2b8;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #117a8b;\n        }\n      "
     ],
     [
-      "\n        color: #fff;\n        background-color: #17a2b8;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #117a8b; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #17a2b8;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #117a8b;\n        }\n      "
     ]
   ),
   _templateObject9 = _taggedTemplateLiteral(
@@ -63,10 +63,10 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject10 = _taggedTemplateLiteral(
     [
-      "\n        color: #212529;\n        background-color: #ffc107;\n        & > a {\n          text-decoration: none;\n          color: #212529;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #212529;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #d39e00; \n        };\n      "
+      "\n        color: #212529;\n        background-color: #ffc107;\n        & > a {\n          text-decoration: none;\n          color: #212529;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #212529;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #d39e00;\n        }\n      "
     ],
     [
-      "\n        color: #212529;\n        background-color: #ffc107;\n        & > a {\n          text-decoration: none;\n          color: #212529;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #212529;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #d39e00; \n        };\n      "
+      "\n        color: #212529;\n        background-color: #ffc107;\n        & > a {\n          text-decoration: none;\n          color: #212529;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #212529;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #d39e00;\n        }\n      "
     ]
   ),
   _templateObject11 = _taggedTemplateLiteral(
@@ -75,10 +75,10 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject12 = _taggedTemplateLiteral(
     [
-      "\n        color: #fff;\n        background-color: #dc3545;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #bd2130; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #dc3545;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #bd2130;\n        }\n      "
     ],
     [
-      "\n        color: #fff;\n        background-color: #dc3545;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #bd2130; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #dc3545;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #bd2130;\n        }\n      "
     ]
   ),
   _templateObject13 = _taggedTemplateLiteral(
@@ -87,10 +87,10 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject14 = _taggedTemplateLiteral(
     [
-      "\n        color: #212529;\n        background-color: #f8f9fa;\n        & > a {\n          text-decoration: none;\n          color: #212529;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #212529;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #dae0e5; \n        };\n      "
+      "\n        color: #212529;\n        background-color: #f8f9fa;\n        & > a {\n          text-decoration: none;\n          color: #212529;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #212529;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #dae0e5;\n        }\n      "
     ],
     [
-      "\n        color: #212529;\n        background-color: #f8f9fa;\n        & > a {\n          text-decoration: none;\n          color: #212529;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #212529;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #dae0e5; \n        };\n      "
+      "\n        color: #212529;\n        background-color: #f8f9fa;\n        & > a {\n          text-decoration: none;\n          color: #212529;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #212529;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #dae0e5;\n        }\n      "
     ]
   ),
   _templateObject15 = _taggedTemplateLiteral(
@@ -99,10 +99,10 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject16 = _taggedTemplateLiteral(
     [
-      "\n        color: #fff;\n        background-color: #343a40;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #1d2124; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #343a40;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #1d2124;\n        }\n      "
     ],
     [
-      "\n        color: #fff;\n        background-color: #343a40;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover, &:focus {\n            text-decoration: none;\n            color: #fff;\n          };\n        };\n        &:hover, &:focus {\n          background-color: #1d2124; \n        };\n      "
+      "\n        color: #fff;\n        background-color: #343a40;\n        & > a {\n          text-decoration: none;\n          color: #fff;\n          &:hover,\n          &:focus {\n            text-decoration: none;\n            color: #fff;\n          }\n        }\n        &:hover,\n        &:focus {\n          background-color: #1d2124;\n        }\n      "
     ]
   ),
   _templateObject17 = _taggedTemplateLiteral(
@@ -111,7 +111,7 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject18 = _taggedTemplateLiteral(
     [
-      "\n  display: inline-block;\n  padding: 0.25em 0.4em;\n  font-size: 75%;\n  font-weight: 700;\n  line-height: 1;\n  text-align: center;\n  white-space: nowrap;\n  vertical-align: baseline;\n  border-radius: 0.25rem;\n  &:empty {\n    display: none;\n  };\n  ",
+      "\n  display: inline-block;\n  padding: 0.25em 0.4em;\n  font-size: 75%;\n  font-weight: 700;\n  line-height: 1;\n  text-align: center;\n  white-space: nowrap;\n  vertical-align: baseline;\n  border-radius: 0.25rem;\n  &:empty {\n    display: none;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",
@@ -134,7 +134,7 @@ var _templateObject = _taggedTemplateLiteral(
       ";\n"
     ],
     [
-      "\n  display: inline-block;\n  padding: 0.25em 0.4em;\n  font-size: 75%;\n  font-weight: 700;\n  line-height: 1;\n  text-align: center;\n  white-space: nowrap;\n  vertical-align: baseline;\n  border-radius: 0.25rem;\n  &:empty {\n    display: none;\n  };\n  ",
+      "\n  display: inline-block;\n  padding: 0.25em 0.4em;\n  font-size: 75%;\n  font-weight: 700;\n  line-height: 1;\n  text-align: center;\n  white-space: nowrap;\n  vertical-align: baseline;\n  border-radius: 0.25rem;\n  &:empty {\n    display: none;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",

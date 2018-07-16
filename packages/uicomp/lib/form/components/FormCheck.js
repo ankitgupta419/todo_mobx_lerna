@@ -15,7 +15,7 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
-      "\n  position: relative;\n  display: block;\n  box-sizing: border-box;\n  & > label {\n    margin-bottom: 0;\n  };\n  & > input {\n    position: static;\n    margin-top: 0;\n    margin-right: 0.3125rem;\n    margin-left: 0;\n  };\n  ",
+      "\n  position: relative;\n  display: block;\n  box-sizing: border-box;\n  & > label {\n    margin-bottom: 0;\n  }\n  & > input {\n    position: static;\n    margin-top: 0;\n    margin-right: 0.3125rem;\n    margin-left: 0;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",
@@ -30,7 +30,7 @@ var _templateObject = _taggedTemplateLiteral(
       ";\n"
     ],
     [
-      "\n  position: relative;\n  display: block;\n  box-sizing: border-box;\n  & > label {\n    margin-bottom: 0;\n  };\n  & > input {\n    position: static;\n    margin-top: 0;\n    margin-right: 0.3125rem;\n    margin-left: 0;\n  };\n  ",
+      "\n  position: relative;\n  display: block;\n  box-sizing: border-box;\n  & > label {\n    margin-bottom: 0;\n  }\n  & > input {\n    position: static;\n    margin-top: 0;\n    margin-right: 0.3125rem;\n    margin-left: 0;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",

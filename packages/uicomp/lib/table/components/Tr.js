@@ -7,163 +7,163 @@ exports.Tr = exports.tableActive = exports.tableDark = exports.tableLight = expo
 
 var _templateObject = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:hover {\n      background-color: #9fcdff;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #9fcdff;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #9fcdff;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #9fcdff;\n    }\n  "
     ],
     [
-      "\n    & tbody tr:hover {\n      background-color: #9fcdff;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #9fcdff;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #9fcdff;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #9fcdff;\n    }\n  "
     ]
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
-      "\n    & > th,\n    & > td {\n      background-color: #b8daff;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #b8daff;\n    }\n    ",
       ";\n  "
     ],
     [
-      "\n    & > th,\n    & > td {\n      background-color: #b8daff;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #b8daff;\n    }\n    ",
       ";\n  "
     ]
   ),
   _templateObject3 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:hover {\n      background-color: #c8cbcf;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #c8cbcf;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #c8cbcf;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #c8cbcf;\n    }\n  "
     ],
     [
-      "\n    & tbody tr:hover {\n      background-color: #c8cbcf;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #c8cbcf;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #c8cbcf;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #c8cbcf;\n    }\n  "
     ]
   ),
   _templateObject4 = _taggedTemplateLiteral(
     [
-      "\n    & > th,\n    & > td {\n      background-color: #d6d8db;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #d6d8db;\n    }\n    ",
       ";\n  "
     ],
     [
-      "\n    & > th,\n    & > td {\n      background-color: #d6d8db;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #d6d8db;\n    }\n    ",
       ";\n  "
     ]
   ),
   _templateObject5 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:hover {\n      background-color: #b1dfbb;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #b1dfbb;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #b1dfbb;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #b1dfbb;\n    }\n  "
     ],
     [
-      "\n    & tbody tr:hover {\n      background-color: #b1dfbb;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #b1dfbb;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #b1dfbb;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #b1dfbb;\n    }\n  "
     ]
   ),
   _templateObject6 = _taggedTemplateLiteral(
     [
-      "\n    & > th,\n    & > td {\n      background-color: #c3e6cb;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #c3e6cb;\n    }\n    ",
       ";\n  "
     ],
     [
-      "\n    & > th,\n    & > td {\n      background-color: #c3e6cb;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #c3e6cb;\n    }\n    ",
       ";\n  "
     ]
   ),
   _templateObject7 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:hover {\n      background-color: #abdde5;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #abdde5;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #abdde5;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #abdde5;\n    }\n  "
     ],
     [
-      "\n    & tbody tr:hover {\n      background-color: #abdde5;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #abdde5;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #abdde5;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #abdde5;\n    }\n  "
     ]
   ),
   _templateObject8 = _taggedTemplateLiteral(
     [
-      "\n    & > th,\n    & > td {\n      background-color: #bee5eb;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #bee5eb;\n    }\n    ",
       ";\n  "
     ],
     [
-      "\n    & > th,\n    & > td {\n      background-color: #bee5eb;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #bee5eb;\n    }\n    ",
       ";\n  "
     ]
   ),
   _templateObject9 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:hover {\n      background-color: #ffe8a1;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #ffe8a1;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #ffe8a1;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #ffe8a1;\n    }\n  "
     ],
     [
-      "\n    & tbody tr:hover {\n      background-color: #ffe8a1;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #ffe8a1;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #ffe8a1;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #ffe8a1;\n    }\n  "
     ]
   ),
   _templateObject10 = _taggedTemplateLiteral(
     [
-      "\n    & > th,\n    & > td {\n      background-color: #ffeeba;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #ffeeba;\n    }\n    ",
       ";\n  "
     ],
     [
-      "\n    & > th,\n    & > td {\n      background-color: #ffeeba;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #ffeeba;\n    }\n    ",
       ";\n  "
     ]
   ),
   _templateObject11 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:hover {\n      background-color: #f1b0b7;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #f1b0b7;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #f1b0b7;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #f1b0b7;\n    }\n  "
     ],
     [
-      "\n    & tbody tr:hover {\n      background-color: #f1b0b7;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #f1b0b7;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #f1b0b7;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #f1b0b7;\n    }\n  "
     ]
   ),
   _templateObject12 = _taggedTemplateLiteral(
     [
-      "\n    & > th,\n    & > td {\n      background-color: #f5c6cb;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #f5c6cb;\n    }\n    ",
       ";\n  "
     ],
     [
-      "\n    & > th,\n    & > td {\n      background-color: #f5c6cb;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #f5c6cb;\n    }\n    ",
       ";\n  "
     ]
   ),
   _templateObject13 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:hover {\n      background-color: #ececf6;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #ececf6;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #ececf6;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #ececf6;\n    }\n  "
     ],
     [
-      "\n    & tbody tr:hover {\n      background-color: #ececf6;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #ececf6;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #ececf6;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #ececf6;\n    }\n  "
     ]
   ),
   _templateObject14 = _taggedTemplateLiteral(
     [
-      "\n    & > th,\n    & > td {\n      background-color: #fdfdfe;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #fdfdfe;\n    }\n    ",
       ";\n  "
     ],
     [
-      "\n    & > th,\n    & > td {\n      background-color: #fdfdfe;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #fdfdfe;\n    }\n    ",
       ";\n  "
     ]
   ),
   _templateObject15 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:hover {\n      background-color: #b9bbbe;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #b9bbbe;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #b9bbbe;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #b9bbbe;\n    }\n  "
     ],
     [
-      "\n    & tbody tr:hover {\n      background-color: #b9bbbe;\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #b9bbbe;\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: #b9bbbe;\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: #b9bbbe;\n    }\n  "
     ]
   ),
   _templateObject16 = _taggedTemplateLiteral(
     [
-      "\n    & > th,\n    & > td {\n      background-color: #c6c8ca;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #c6c8ca;\n    }\n    ",
       ";\n  "
     ],
     [
-      "\n    & > th,\n    & > td {\n      background-color: #c6c8ca;\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: #c6c8ca;\n    }\n    ",
       ";\n  "
     ]
   ),
   _templateObject17 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:hover {\n      background-color: rgba(0, 0, 0, 0.075);\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: rgba(0, 0, 0, 0.075);\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: rgba(0, 0, 0, 0.075);\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: rgba(0, 0, 0, 0.075);\n    }\n  "
     ],
     [
-      "\n    & tbody tr:hover {\n      background-color: rgba(0, 0, 0, 0.075);\n    };\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: rgba(0, 0, 0, 0.075);\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: rgba(0, 0, 0, 0.075);\n    }\n    & tbody tr:hover > th,\n    & tbody tr:hover > td {\n      background-color: rgba(0, 0, 0, 0.075);\n    }\n  "
     ]
   ),
   _templateObject18 = _taggedTemplateLiteral(
     [
-      "\n    & > th,\n    & > td {\n      background-color: rgba(0, 0, 0, 0.075);\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: rgba(0, 0, 0, 0.075);\n    }\n    ",
       ";\n  "
     ],
     [
-      "\n    & > th,\n    & > td {\n      background-color: rgba(0, 0, 0, 0.075);\n    };\n    ",
+      "\n    & > th,\n    & > td {\n      background-color: rgba(0, 0, 0, 0.075);\n    }\n    ",
       ";\n  "
     ]
   ),

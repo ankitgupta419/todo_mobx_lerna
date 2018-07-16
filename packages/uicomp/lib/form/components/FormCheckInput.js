@@ -7,11 +7,9 @@ exports.FormCheckInput = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
     [
-      "\n    color: #6c757d;\n    & + label {\n      color: #6c757d;\n    };\n  "
+      "\n    color: #6c757d;\n    & + label {\n      color: #6c757d;\n    }\n  "
     ],
-    [
-      "\n    color: #6c757d;\n    & + label {\n      color: #6c757d;\n    };\n  "
-    ]
+    ["\n    color: #6c757d;\n    & + label {\n      color: #6c757d;\n    }\n  "]
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [

@@ -7,10 +7,10 @@ exports.Code = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;\n  font-size: 87.5%;\n  color: #e83e8c;\n  word-break: break-word;\n'
+    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",\n    "Courier New", monospace;\n  font-size: 87.5%;\n  color: #e83e8c;\n  word-break: break-word;\n'
   ],
   [
-    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;\n  font-size: 87.5%;\n  color: #e83e8c;\n  word-break: break-word;\n'
+    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",\n    "Courier New", monospace;\n  font-size: 87.5%;\n  color: #e83e8c;\n  word-break: break-word;\n'
   ]
 );
 

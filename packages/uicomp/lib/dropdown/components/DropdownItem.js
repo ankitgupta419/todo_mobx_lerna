@@ -19,7 +19,7 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject3 = _taggedTemplateLiteral(
     [
-      "\n  padding: 0.25rem 1.5rem;\n  clear: both;\n  font-weight: 400;\n  color: #212529;\n  text-align: inherit;\n  white-space: nowrap;\n  background-color: transparent;\n  border: 0;\n  &:hover, &:focus {\n    color: #16181b;\n    text-decoration: none;\n    background-color: #f8f9fa;\n  };\n  ",
+      "\n  padding: 0.25rem 1.5rem;\n  clear: both;\n  font-weight: 400;\n  color: #212529;\n  text-align: inherit;\n  white-space: nowrap;\n  background-color: transparent;\n  border: 0;\n  &:hover,\n  &:focus {\n    color: #16181b;\n    text-decoration: none;\n    background-color: #f8f9fa;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",
@@ -35,7 +35,7 @@ var _templateObject = _taggedTemplateLiteral(
       ";\n"
     ],
     [
-      "\n  padding: 0.25rem 1.5rem;\n  clear: both;\n  font-weight: 400;\n  color: #212529;\n  text-align: inherit;\n  white-space: nowrap;\n  background-color: transparent;\n  border: 0;\n  &:hover, &:focus {\n    color: #16181b;\n    text-decoration: none;\n    background-color: #f8f9fa;\n  };\n  ",
+      "\n  padding: 0.25rem 1.5rem;\n  clear: both;\n  font-weight: 400;\n  color: #212529;\n  text-align: inherit;\n  white-space: nowrap;\n  background-color: transparent;\n  border: 0;\n  &:hover,\n  &:focus {\n    color: #16181b;\n    text-decoration: none;\n    background-color: #f8f9fa;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",

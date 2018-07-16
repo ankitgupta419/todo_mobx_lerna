@@ -24,11 +24,11 @@ var _templateObject = _taggedTemplateLiteral(
   _templateObject3 = _taggedTemplateLiteral(
     [
       "\n      @media (max-width: ",
-      ") {\n        & > nav:not(:last-child) {\n          display: flex !important;\n          width: 100%;\n          justify-content: space-between;\n        };\n      };\n    "
+      ") {\n        & > nav:not(:last-child) {\n          display: flex !important;\n          width: 100%;\n          justify-content: space-between;\n        }\n      }\n    "
     ],
     [
       "\n      @media (max-width: ",
-      ") {\n        & > nav:not(:last-child) {\n          display: flex !important;\n          width: 100%;\n          justify-content: space-between;\n        };\n      };\n    "
+      ") {\n        & > nav:not(:last-child) {\n          display: flex !important;\n          width: 100%;\n          justify-content: space-between;\n        }\n      }\n    "
     ]
   ),
   _templateObject4 = _taggedTemplateLiteral(

@@ -7,7 +7,7 @@ exports.CardFooter = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    "\n  padding: 0.75rem 1.25rem;\n  background-color: rgba(0, 0, 0, 0.03);\n  border-top: 1px solid rgba(0, 0, 0, 0.125);\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: center;\n  margin: -3px;\n  &:last-child {\n    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);\n  };\n  ",
+    "\n  padding: 0.75rem 1.25rem;\n  background-color: rgba(0, 0, 0, 0.03);\n  border-top: 1px solid rgba(0, 0, 0, 0.125);\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: center;\n  margin: -3px;\n  &:last-child {\n    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);\n  }\n  ",
     ";\n  ",
     ";\n  ",
     ";\n  ",
@@ -21,7 +21,7 @@ var _templateObject = _taggedTemplateLiteral(
     ";\n"
   ],
   [
-    "\n  padding: 0.75rem 1.25rem;\n  background-color: rgba(0, 0, 0, 0.03);\n  border-top: 1px solid rgba(0, 0, 0, 0.125);\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: center;\n  margin: -3px;\n  &:last-child {\n    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);\n  };\n  ",
+    "\n  padding: 0.75rem 1.25rem;\n  background-color: rgba(0, 0, 0, 0.03);\n  border-top: 1px solid rgba(0, 0, 0, 0.125);\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: center;\n  margin: -3px;\n  &:last-child {\n    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);\n  }\n  ",
     ";\n  ",
     ";\n  ",
     ";\n  ",

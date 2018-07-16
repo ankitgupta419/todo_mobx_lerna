@@ -7,7 +7,7 @@ exports.CardBody = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    "\n  flex: 1 1 auto;\n  padding: 1.25rem;\n  & > a {\n    &:hover {\n      text-decoration: none;\n    };\n    & + a {\n      margin-left: 1.25rem;\n    };\n  };\n  ",
+    "\n  flex: 1 1 auto;\n  padding: 1.25rem;\n  & > a {\n    &:hover {\n      text-decoration: none;\n    }\n    & + a {\n      margin-left: 1.25rem;\n    }\n  }\n  ",
     ";\n  ",
     ";\n  ",
     ";\n  ",
@@ -21,7 +21,7 @@ var _templateObject = _taggedTemplateLiteral(
     ";\n"
   ],
   [
-    "\n  flex: 1 1 auto;\n  padding: 1.25rem;\n  & > a {\n    &:hover {\n      text-decoration: none;\n    };\n    & + a {\n      margin-left: 1.25rem;\n    };\n  };\n  ",
+    "\n  flex: 1 1 auto;\n  padding: 1.25rem;\n  & > a {\n    &:hover {\n      text-decoration: none;\n    }\n    & + a {\n      margin-left: 1.25rem;\n    }\n  }\n  ",
     ";\n  ",
     ";\n  ",
     ";\n  ",

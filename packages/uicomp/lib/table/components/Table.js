@@ -6,47 +6,47 @@ Object.defineProperty(exports, "__esModule", {
 exports.Table = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
-    ["\n    & th,\n    & td {\n      padding: 0.3rem;\n    };\n  "],
-    ["\n    & th,\n    & td {\n      padding: 0.3rem;\n    };\n  "]
+    ["\n    & th,\n    & td {\n      padding: 0.3rem;\n    }\n  "],
+    ["\n    & th,\n    & td {\n      padding: 0.3rem;\n    }\n  "]
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
-      "\n    border: 1px solid #dee2e6;\n    & th,\n    & td {\n      border: 1px solid #dee2e6;\n    };\n    & thead th,\n    & thead td {\n      border-bottom-width: 2px;\n    };\n  "
+      "\n    border: 1px solid #dee2e6;\n    & th,\n    & td {\n      border: 1px solid #dee2e6;\n    }\n    & thead th,\n    & thead td {\n      border-bottom-width: 2px;\n    }\n  "
     ],
     [
-      "\n    border: 1px solid #dee2e6;\n    & th,\n    & td {\n      border: 1px solid #dee2e6;\n    };\n    & thead th,\n    & thead td {\n      border-bottom-width: 2px;\n    };\n  "
+      "\n    border: 1px solid #dee2e6;\n    & th,\n    & td {\n      border: 1px solid #dee2e6;\n    }\n    & thead th,\n    & thead td {\n      border-bottom-width: 2px;\n    }\n  "
     ]
   ),
   _templateObject3 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:nth-of-type(odd) {\n      background-color: rgba(0, 0, 0, 0.05);\n    };\n  "
+      "\n    & tbody tr:nth-of-type(odd) {\n      background-color: rgba(0, 0, 0, 0.05);\n    }\n  "
     ],
     [
-      "\n    & tbody tr:nth-of-type(odd) {\n      background-color: rgba(0, 0, 0, 0.05);\n    };\n  "
+      "\n    & tbody tr:nth-of-type(odd) {\n      background-color: rgba(0, 0, 0, 0.05);\n    }\n  "
     ]
   ),
   _templateObject4 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:hover {\n      background-color: rgba(0, 0, 0, 0.075);\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: rgba(0, 0, 0, 0.075);\n    }\n  "
     ],
     [
-      "\n    & tbody tr:hover {\n      background-color: rgba(0, 0, 0, 0.075);\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: rgba(0, 0, 0, 0.075);\n    }\n  "
     ]
   ),
   _templateObject5 = _taggedTemplateLiteral(
     [
-      "\n    & thead th {\n      color: #fff;\n      background-color: #212529;\n      border-color: #32383e;\n    };\n  "
+      "\n    & thead th {\n      color: #fff;\n      background-color: #212529;\n      border-color: #32383e;\n    }\n  "
     ],
     [
-      "\n    & thead th {\n      color: #fff;\n      background-color: #212529;\n      border-color: #32383e;\n    };\n  "
+      "\n    & thead th {\n      color: #fff;\n      background-color: #212529;\n      border-color: #32383e;\n    }\n  "
     ]
   ),
   _templateObject6 = _taggedTemplateLiteral(
     [
-      "\n    & thead th {\n      color: #495057;\n      background-color: #e9ecef;\n      border-color: #dee2e6;\n    };\n  "
+      "\n    & thead th {\n      color: #495057;\n      background-color: #e9ecef;\n      border-color: #dee2e6;\n    }\n  "
     ],
     [
-      "\n    & thead th {\n      color: #495057;\n      background-color: #e9ecef;\n      border-color: #dee2e6;\n    };\n  "
+      "\n    & thead th {\n      color: #495057;\n      background-color: #e9ecef;\n      border-color: #dee2e6;\n    }\n  "
     ]
   ),
   _templateObject7 = _taggedTemplateLiteral(
@@ -55,29 +55,29 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject8 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:nth-of-type(odd) {\n      background-color: rgba(255, 255, 255, 0.05);\n    };\n  "
+      "\n    & tbody tr:nth-of-type(odd) {\n      background-color: rgba(255, 255, 255, 0.05);\n    }\n  "
     ],
     [
-      "\n    & tbody tr:nth-of-type(odd) {\n      background-color: rgba(255, 255, 255, 0.05);\n    };\n  "
+      "\n    & tbody tr:nth-of-type(odd) {\n      background-color: rgba(255, 255, 255, 0.05);\n    }\n  "
     ]
   ),
   _templateObject9 = _taggedTemplateLiteral(
     [
-      "\n    & tbody tr:hover {\n      background-color: rgba(255, 255, 255, 0.075);\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: rgba(255, 255, 255, 0.075);\n    }\n  "
     ],
     [
-      "\n    & tbody tr:hover {\n      background-color: rgba(255, 255, 255, 0.075);\n    };\n  "
+      "\n    & tbody tr:hover {\n      background-color: rgba(255, 255, 255, 0.075);\n    }\n  "
     ]
   ),
   _templateObject10 = _taggedTemplateLiteral(
     [
-      "\n    color: #fff;\n    background-color: #212529;\n    & th,\n    & td,\n    & thead th {\n      border-color: #32383e;\n    };\n    ",
+      "\n    color: #fff;\n    background-color: #212529;\n    & th,\n    & td,\n    & thead th {\n      border-color: #32383e;\n    }\n    ",
       ";\n    ",
       ";\n    ",
       ";\n  "
     ],
     [
-      "\n    color: #fff;\n    background-color: #212529;\n    & th,\n    & td,\n    & thead th {\n      border-color: #32383e;\n    };\n    ",
+      "\n    color: #fff;\n    background-color: #212529;\n    & th,\n    & td,\n    & thead th {\n      border-color: #32383e;\n    }\n    ",
       ";\n    ",
       ";\n    ",
       ";\n  "
@@ -86,41 +86,41 @@ var _templateObject = _taggedTemplateLiteral(
   _templateObject11 = _taggedTemplateLiteral(
     [
       "\n    @media (max-width: 575.98px) {\n      display: block;\n      width: 100%;\n      overflow-x: auto;\n      ",
-      ";\n    };\n  "
+      ";\n    }\n  "
     ],
     [
       "\n    @media (max-width: 575.98px) {\n      display: block;\n      width: 100%;\n      overflow-x: auto;\n      ",
-      ";\n    };\n  "
+      ";\n    }\n  "
     ]
   ),
   _templateObject12 = _taggedTemplateLiteral(
     [
       "\n    @media (max-width: 767.98px) {\n      display: block;\n      width: 100%;\n      overflow-x: auto;\n      ",
-      ";\n    };\n  "
+      ";\n    }\n  "
     ],
     [
       "\n    @media (max-width: 767.98px) {\n      display: block;\n      width: 100%;\n      overflow-x: auto;\n      ",
-      ";\n    };\n  "
+      ";\n    }\n  "
     ]
   ),
   _templateObject13 = _taggedTemplateLiteral(
     [
       "\n    @media (max-width: 991.98px) {\n      display: block;\n      width: 100%;\n      overflow-x: auto;\n      ",
-      ";\n    };\n  "
+      ";\n    }\n  "
     ],
     [
       "\n    @media (max-width: 991.98px) {\n      display: block;\n      width: 100%;\n      overflow-x: auto;\n      ",
-      ";\n    };\n  "
+      ";\n    }\n  "
     ]
   ),
   _templateObject14 = _taggedTemplateLiteral(
     [
       "\n    @media (max-width: 1199.98px) {\n      display: block;\n      width: 100%;\n      overflow-x: auto;\n      ",
-      ";\n    };\n  "
+      ";\n    }\n  "
     ],
     [
       "\n    @media (max-width: 1199.98px) {\n      display: block;\n      width: 100%;\n      overflow-x: auto;\n      ",
-      ";\n    };\n  "
+      ";\n    }\n  "
     ]
   ),
   _templateObject15 = _taggedTemplateLiteral(
@@ -135,7 +135,7 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject16 = _taggedTemplateLiteral(
     [
-      "\n  width: 100%;\n  max-width: 100%;\n  margin-bottom: 1rem;\n  background-color: transparent;\n  & th,\n  & td {\n    padding: 0.75rem;\n    vertical-align: top;\n    border-top: 1px solid #dee2e6;\n  };\n  & thead th {\n    vertical-align: bottom;\n    border-bottom: 2px solid #dee2e6;\n  };\n  & tbody + tbody {\n    border-top: 2px solid #dee2e6;\n  };\n  & + & {\n    background-color: #fff;\n  };\n  ",
+      "\n  width: 100%;\n  max-width: 100%;\n  margin-bottom: 1rem;\n  background-color: transparent;\n  & th,\n  & td {\n    padding: 0.75rem;\n    vertical-align: top;\n    border-top: 1px solid #dee2e6;\n  }\n  & thead th {\n    vertical-align: bottom;\n    border-bottom: 2px solid #dee2e6;\n  }\n  & tbody + tbody {\n    border-top: 2px solid #dee2e6;\n  }\n  & + & {\n    background-color: #fff;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",
@@ -161,7 +161,7 @@ var _templateObject = _taggedTemplateLiteral(
       ";\n"
     ],
     [
-      "\n  width: 100%;\n  max-width: 100%;\n  margin-bottom: 1rem;\n  background-color: transparent;\n  & th,\n  & td {\n    padding: 0.75rem;\n    vertical-align: top;\n    border-top: 1px solid #dee2e6;\n  };\n  & thead th {\n    vertical-align: bottom;\n    border-bottom: 2px solid #dee2e6;\n  };\n  & tbody + tbody {\n    border-top: 2px solid #dee2e6;\n  };\n  & + & {\n    background-color: #fff;\n  };\n  ",
+      "\n  width: 100%;\n  max-width: 100%;\n  margin-bottom: 1rem;\n  background-color: transparent;\n  & th,\n  & td {\n    padding: 0.75rem;\n    vertical-align: top;\n    border-top: 1px solid #dee2e6;\n  }\n  & thead th {\n    vertical-align: bottom;\n    border-bottom: 2px solid #dee2e6;\n  }\n  & tbody + tbody {\n    border-top: 2px solid #dee2e6;\n  }\n  & + & {\n    background-color: #fff;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",

@@ -7,10 +7,10 @@ exports.A = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    "\n  color: #007bff;\n  text-decoration: none;\n  background-color: transparent;\n  &:hover {\n    color: #0056b3;\n    text-decoration: underline;\n  };\n"
+    "\n  color: #007bff;\n  text-decoration: none;\n  background-color: transparent;\n  &:hover {\n    color: #0056b3;\n    text-decoration: underline;\n  }\n"
   ],
   [
-    "\n  color: #007bff;\n  text-decoration: none;\n  background-color: transparent;\n  &:hover {\n    color: #0056b3;\n    text-decoration: underline;\n  };\n"
+    "\n  color: #007bff;\n  text-decoration: none;\n  background-color: transparent;\n  &:hover {\n    color: #0056b3;\n    text-decoration: underline;\n  }\n"
   ]
 );
 

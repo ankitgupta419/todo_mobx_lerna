@@ -1,5 +1,5 @@
 const setDecoratorTags = function(content) {
-  let textsemantics = "Winner is " + content + " from ";
+  let textsemantics = "User is " + content + " from ";
   return textsemantics;
 };
 module.exports = {

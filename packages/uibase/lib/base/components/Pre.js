@@ -7,10 +7,10 @@ exports.Pre = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;\n  margin-top: 0;\n  margin-bottom: 1rem;\n  overflow: auto;\n  display: block;\n  font-size: 87.5%;\n  color: #212529;\n'
+    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",\n    "Courier New", monospace;\n  margin-top: 0;\n  margin-bottom: 1rem;\n  overflow: auto;\n  display: block;\n  font-size: 87.5%;\n  color: #212529;\n'
   ],
   [
-    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;\n  margin-top: 0;\n  margin-bottom: 1rem;\n  overflow: auto;\n  display: block;\n  font-size: 87.5%;\n  color: #212529;\n'
+    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",\n    "Courier New", monospace;\n  margin-top: 0;\n  margin-bottom: 1rem;\n  overflow: auto;\n  display: block;\n  font-size: 87.5%;\n  color: #212529;\n'
   ]
 );
 

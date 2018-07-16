@@ -7,18 +7,18 @@ exports.NavLink = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
     [
-      "\n    color: #6c757d;\n    &:hover,\n    &:focus {\n      color: #6c757d;\n    };\n  "
+      "\n    color: #6c757d;\n    &:hover,\n    &:focus {\n      color: #6c757d;\n    }\n  "
     ],
     [
-      "\n    color: #6c757d;\n    &:hover,\n    &:focus {\n      color: #6c757d;\n    };\n  "
+      "\n    color: #6c757d;\n    &:hover,\n    &:focus {\n      color: #6c757d;\n    }\n  "
     ]
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
-      "\n        color: #495057;\n        border-color: #e9ecef #e9ecef #fff;\n        &:hover,\n        &:focus {\n          color: #495057;\n        };\n      "
+      "\n        color: #495057;\n        border-color: #e9ecef #e9ecef #fff;\n        &:hover,\n        &:focus {\n          color: #495057;\n        }\n      "
     ],
     [
-      "\n        color: #495057;\n        border-color: #e9ecef #e9ecef #fff;\n        &:hover,\n        &:focus {\n          color: #495057;\n        };\n      "
+      "\n        color: #495057;\n        border-color: #e9ecef #e9ecef #fff;\n        &:hover,\n        &:focus {\n          color: #495057;\n        }\n      "
     ]
   ),
   _templateObject3 = _taggedTemplateLiteral(
@@ -27,23 +27,23 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject4 = _taggedTemplateLiteral(
     [
-      "\n      &:hover,\n      &:focus {\n        border-color: #e9ecef #e9ecef #dee2e6;\n      };\n    "
+      "\n      &:hover,\n      &:focus {\n        border-color: #e9ecef #e9ecef #dee2e6;\n      }\n    "
     ],
     [
-      "\n      &:hover,\n      &:focus {\n        border-color: #e9ecef #e9ecef #dee2e6;\n      };\n    "
+      "\n      &:hover,\n      &:focus {\n        border-color: #e9ecef #e9ecef #dee2e6;\n      }\n    "
     ]
   ),
   _templateObject5 = _taggedTemplateLiteral(
     [
-      "\n    border-radius: 0.25rem;\n    color: #fff;\n    background-color: #007bff;\n    &:hover,\n    &:focus {\n      color: #fff;\n    };\n  "
+      "\n    border-radius: 0.25rem;\n    color: #fff;\n    background-color: #007bff;\n    &:hover,\n    &:focus {\n      color: #fff;\n    }\n  "
     ],
     [
-      "\n    border-radius: 0.25rem;\n    color: #fff;\n    background-color: #007bff;\n    &:hover,\n    &:focus {\n      color: #fff;\n    };\n  "
+      "\n    border-radius: 0.25rem;\n    color: #fff;\n    background-color: #007bff;\n    &:hover,\n    &:focus {\n      color: #fff;\n    }\n  "
     ]
   ),
   _templateObject6 = _taggedTemplateLiteral(
     [
-      "\n  display: block;\n  padding: 0.5rem;\n  border: 1px solid transparent;\n  border-top-left-radius: 0.25rem;\n  border-top-right-radius: 0.25rem;\n  color: #007bff;\n  &:hover,\n  &:focus {\n    text-decoration: none;\n    color: #0056b3;\n  };\n  ",
+      "\n  display: block;\n  padding: 0.5rem;\n  border: 1px solid transparent;\n  border-top-left-radius: 0.25rem;\n  border-top-right-radius: 0.25rem;\n  color: #007bff;\n  &:hover,\n  &:focus {\n    text-decoration: none;\n    color: #0056b3;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",
@@ -60,7 +60,7 @@ var _templateObject = _taggedTemplateLiteral(
       ";\n"
     ],
     [
-      "\n  display: block;\n  padding: 0.5rem;\n  border: 1px solid transparent;\n  border-top-left-radius: 0.25rem;\n  border-top-right-radius: 0.25rem;\n  color: #007bff;\n  &:hover,\n  &:focus {\n    text-decoration: none;\n    color: #0056b3;\n  };\n  ",
+      "\n  display: block;\n  padding: 0.5rem;\n  border: 1px solid transparent;\n  border-top-left-radius: 0.25rem;\n  border-top-right-radius: 0.25rem;\n  color: #007bff;\n  &:hover,\n  &:focus {\n    text-decoration: none;\n    color: #0056b3;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",

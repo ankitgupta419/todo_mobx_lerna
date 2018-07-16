@@ -7,25 +7,25 @@ exports.ButtonGroup = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
     [
-      "\n    flex-direction: column;\n    align-items: flex-start;\n    justify-content: center;\n    & > button {\n      width: 100%;\n      &:not(:last-child) {\n        border-bottom-right-radius: 0;\n        border-bottom-left-radius: 0;\n      };\n      &:not(:first-child) {\n        border-top-left-radius: 0;\n        border-top-right-radius: 0;\n      };\n    };\n  "
+      "\n    flex-direction: column;\n    align-items: flex-start;\n    justify-content: center;\n    & > button {\n      width: 100%;\n      &:not(:last-child) {\n        border-bottom-right-radius: 0;\n        border-bottom-left-radius: 0;\n      }\n      &:not(:first-child) {\n        border-top-left-radius: 0;\n        border-top-right-radius: 0;\n      }\n    }\n  "
     ],
     [
-      "\n    flex-direction: column;\n    align-items: flex-start;\n    justify-content: center;\n    & > button {\n      width: 100%;\n      &:not(:last-child) {\n        border-bottom-right-radius: 0;\n        border-bottom-left-radius: 0;\n      };\n      &:not(:first-child) {\n        border-top-left-radius: 0;\n        border-top-right-radius: 0;\n      };\n    };\n  "
+      "\n    flex-direction: column;\n    align-items: flex-start;\n    justify-content: center;\n    & > button {\n      width: 100%;\n      &:not(:last-child) {\n        border-bottom-right-radius: 0;\n        border-bottom-left-radius: 0;\n      }\n      &:not(:first-child) {\n        border-top-left-radius: 0;\n        border-top-right-radius: 0;\n      }\n    }\n  "
     ]
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
-      "\n    & > button {\n      &:not(:last-child) {\n        border-top-right-radius: 0;\n        border-bottom-right-radius: 0;\n      };\n      &:not(:first-child) {\n        border-top-left-radius: 0;\n        border-bottom-left-radius: 0;\n      };\n    };\n  "
+      "\n    & > button {\n      &:not(:last-child) {\n        border-top-right-radius: 0;\n        border-bottom-right-radius: 0;\n      }\n      &:not(:first-child) {\n        border-top-left-radius: 0;\n        border-bottom-left-radius: 0;\n      }\n    }\n  "
     ],
     [
-      "\n    & > button {\n      &:not(:last-child) {\n        border-top-right-radius: 0;\n        border-bottom-right-radius: 0;\n      };\n      &:not(:first-child) {\n        border-top-left-radius: 0;\n        border-bottom-left-radius: 0;\n      };\n    };\n  "
+      "\n    & > button {\n      &:not(:last-child) {\n        border-top-right-radius: 0;\n        border-bottom-right-radius: 0;\n      }\n      &:not(:first-child) {\n        border-top-left-radius: 0;\n        border-bottom-left-radius: 0;\n      }\n    }\n  "
     ]
   ),
   _templateObject3 = _taggedTemplateLiteral(
     [
-      "\n  position: relative;\n  display: inline-flex;\n  vertical-align: middle;\n  & > button {\n    line-height: 1.5;\n    position: relative;\n    flex: 0 1 auto;\n    &:hover {\n      z-index: 1;\n    };\n    ",
+      "\n  position: relative;\n  display: inline-flex;\n  vertical-align: middle;\n  & > button {\n    line-height: 1.5;\n    position: relative;\n    flex: 0 1 auto;\n    &:hover {\n      z-index: 1;\n    }\n    ",
       ";\n    ",
-      ";\n  };\n  ",
+      ";\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",
@@ -41,9 +41,9 @@ var _templateObject = _taggedTemplateLiteral(
       ";\n"
     ],
     [
-      "\n  position: relative;\n  display: inline-flex;\n  vertical-align: middle;\n  & > button {\n    line-height: 1.5;\n    position: relative;\n    flex: 0 1 auto;\n    &:hover {\n      z-index: 1;\n    };\n    ",
+      "\n  position: relative;\n  display: inline-flex;\n  vertical-align: middle;\n  & > button {\n    line-height: 1.5;\n    position: relative;\n    flex: 0 1 auto;\n    &:hover {\n      z-index: 1;\n    }\n    ",
       ";\n    ",
-      ";\n  };\n  ",
+      ";\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",

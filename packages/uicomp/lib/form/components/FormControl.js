@@ -7,36 +7,36 @@ exports.FormControl = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
     [
-      "\n    background-color: #e9ecef;\n    opacity: 1;\n    &:focus {\n      background-color: #e9ecef;\n      opacity: 1;\n    };\n  "
+      "\n    background-color: #e9ecef;\n    opacity: 1;\n    &:focus {\n      background-color: #e9ecef;\n      opacity: 1;\n    }\n  "
     ],
     [
-      "\n    background-color: #e9ecef;\n    opacity: 1;\n    &:focus {\n      background-color: #e9ecef;\n      opacity: 1;\n    };\n  "
+      "\n    background-color: #e9ecef;\n    opacity: 1;\n    &:focus {\n      background-color: #e9ecef;\n      opacity: 1;\n    }\n  "
     ]
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
-      "\n    border-color: #28a745;\n    &:focus {\n      border-color: #28a745;\n      box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);\n    };\n  "
+      "\n    border-color: #28a745;\n    &:focus {\n      border-color: #28a745;\n      box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);\n    }\n  "
     ],
     [
-      "\n    border-color: #28a745;\n    &:focus {\n      border-color: #28a745;\n      box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);\n    };\n  "
+      "\n    border-color: #28a745;\n    &:focus {\n      border-color: #28a745;\n      box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);\n    }\n  "
     ]
   ),
   _templateObject3 = _taggedTemplateLiteral(
     [
-      "\n    border-color: #dc3545;\n    &:focus {\n      border-color: #dc3545;\n      box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);\n    };\n  "
+      "\n    border-color: #dc3545;\n    &:focus {\n      border-color: #dc3545;\n      box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);\n    }\n  "
     ],
     [
-      "\n    border-color: #dc3545;\n    &:focus {\n      border-color: #dc3545;\n      box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);\n    };\n  "
+      "\n    border-color: #dc3545;\n    &:focus {\n      border-color: #dc3545;\n      box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);\n    }\n  "
     ]
   ),
   _templateObject4 = _taggedTemplateLiteral(
     [
       "\n    @media (min-width: ",
-      ") {\n      display: inline-block;\n      width: auto;\n      vertical-align: middle;\n    };\n  "
+      ") {\n      display: inline-block;\n      width: auto;\n      vertical-align: middle;\n    }\n  "
     ],
     [
       "\n    @media (min-width: ",
-      ") {\n      display: inline-block;\n      width: auto;\n      vertical-align: middle;\n    };\n  "
+      ") {\n      display: inline-block;\n      width: auto;\n      vertical-align: middle;\n    }\n  "
     ]
   ),
   _templateObject5 = _taggedTemplateLiteral(
@@ -73,44 +73,44 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject9 = _taggedTemplateLiteral(
     [
-      "\n    display: block;\n    width: 100%;\n    padding: 0.375rem 0.75rem;\n    font-size: 1rem;\n    line-height: 1.5;\n    color: #495057;\n    background-color: #fff;\n    background-clip: padding-box;\n    border: 1px solid #ced4da;\n    border-radius: 0.25rem;\n    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n    box-sizing: border-box;\n    &::-ms-expand {\n      background-color: transparent;\n      border: 0;\n    };\n    &:focus {\n      color: #495057;\n      background-color: #fff;\n      border-color: #80bdff;\n      outline: 0;\n      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);\n    };\n    &::placeholder {\n      color: #6c757d;\n      opacity: 1;\n    };\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n  "
+      "\n  display: block;\n  width: 100%;\n  padding: 0.375rem 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5;\n  color: #495057;\n  background-color: #fff;\n  background-clip: padding-box;\n  border: 1px solid #ced4da;\n  border-radius: 0.25rem;\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n  box-sizing: border-box;\n  &::-ms-expand {\n    background-color: transparent;\n    border: 0;\n  }\n  &:focus {\n    color: #495057;\n    background-color: #fff;\n    border-color: #80bdff;\n    outline: 0;\n    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);\n  }\n  &::placeholder {\n    color: #6c757d;\n    opacity: 1;\n  }\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n"
     ],
     [
-      "\n    display: block;\n    width: 100%;\n    padding: 0.375rem 0.75rem;\n    font-size: 1rem;\n    line-height: 1.5;\n    color: #495057;\n    background-color: #fff;\n    background-clip: padding-box;\n    border: 1px solid #ced4da;\n    border-radius: 0.25rem;\n    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n    box-sizing: border-box;\n    &::-ms-expand {\n      background-color: transparent;\n      border: 0;\n    };\n    &:focus {\n      color: #495057;\n      background-color: #fff;\n      border-color: #80bdff;\n      outline: 0;\n      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);\n    };\n    &::placeholder {\n      color: #6c757d;\n      opacity: 1;\n    };\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n    ",
-      ";\n  "
+      "\n  display: block;\n  width: 100%;\n  padding: 0.375rem 0.75rem;\n  font-size: 1rem;\n  line-height: 1.5;\n  color: #495057;\n  background-color: #fff;\n  background-clip: padding-box;\n  border: 1px solid #ced4da;\n  border-radius: 0.25rem;\n  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;\n  box-sizing: border-box;\n  &::-ms-expand {\n    background-color: transparent;\n    border: 0;\n  }\n  &:focus {\n    color: #495057;\n    background-color: #fff;\n    border-color: #80bdff;\n    outline: 0;\n    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);\n  }\n  &::placeholder {\n    color: #6c757d;\n    opacity: 1;\n  }\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n  ",
+      ";\n"
     ]
   ),
   _templateObject10 = _taggedTemplateLiteral(

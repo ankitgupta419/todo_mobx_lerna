@@ -11,7 +11,7 @@ var _templateObject = _taggedTemplateLiteral(
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
-      '\n  &:not(:first-child)::before {\n    display: inline-block;\n    padding-right: 0.5rem;\n    padding-left: 0.5rem;\n    color: #6c757d;\n    content: "/";\n  };\n  & + &:hover::before {\n    text-decoration: none;\n  };\n  ',
+      '\n  &:not(:first-child)::before {\n    display: inline-block;\n    padding-right: 0.5rem;\n    padding-left: 0.5rem;\n    color: #6c757d;\n    content: "/";\n  }\n  & + &:hover::before {\n    text-decoration: none;\n  }\n  ',
       ";\n  ",
       ";\n  ",
       ";\n  ",
@@ -26,7 +26,7 @@ var _templateObject = _taggedTemplateLiteral(
       ";\n"
     ],
     [
-      '\n  &:not(:first-child)::before {\n    display: inline-block;\n    padding-right: 0.5rem;\n    padding-left: 0.5rem;\n    color: #6c757d;\n    content: "/";\n  };\n  & + &:hover::before {\n    text-decoration: none;\n  };\n  ',
+      '\n  &:not(:first-child)::before {\n    display: inline-block;\n    padding-right: 0.5rem;\n    padding-left: 0.5rem;\n    color: #6c757d;\n    content: "/";\n  }\n  & + &:hover::before {\n    text-decoration: none;\n  }\n  ',
       ";\n  ",
       ";\n  ",
       ";\n  ",

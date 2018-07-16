@@ -8,17 +8,17 @@ exports.ModalDialog = undefined;
 var _templateObject = _taggedTemplateLiteral(
     [
       "\n      display: flex;\n      align-items: center;\n      min-height: calc(100% - (0.5rem * 2));\n      @media (min-width: ",
-      ") { \n        min-height: calc(100% - (1.75rem * 2));\n      };\n    "
+      ") {\n        min-height: calc(100% - (1.75rem * 2));\n      }\n    "
     ],
     [
       "\n      display: flex;\n      align-items: center;\n      min-height: calc(100% - (0.5rem * 2));\n      @media (min-width: ",
-      ") { \n        min-height: calc(100% - (1.75rem * 2));\n      };\n    "
+      ") {\n        min-height: calc(100% - (1.75rem * 2));\n      }\n    "
     ]
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
       "\n  position: relative;\n  width: auto;\n  margin: 0.5rem;\n  pointer-events: none;\n  @media (min-width: ",
-      ") {\n    max-width: 500px;\n    margin: 1.75rem auto;\n  };\n  ",
+      ") {\n    max-width: 500px;\n    margin: 1.75rem auto;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",
@@ -34,7 +34,7 @@ var _templateObject = _taggedTemplateLiteral(
     ],
     [
       "\n  position: relative;\n  width: auto;\n  margin: 0.5rem;\n  pointer-events: none;\n  @media (min-width: ",
-      ") {\n    max-width: 500px;\n    margin: 1.75rem auto;\n  };\n  ",
+      ") {\n    max-width: 500px;\n    margin: 1.75rem auto;\n  }\n  ",
       ";\n  ",
       ";\n  ",
       ";\n  ",

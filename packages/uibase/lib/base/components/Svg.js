@@ -6,8 +6,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.Svg = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
-  ["\n  &:not(:root) {\n    overflow: hidden;\n  };\n"],
-  ["\n  &:not(:root) {\n    overflow: hidden;\n  };\n"]
+  ["\n  &:not(:root) {\n    overflow: hidden;\n  }\n"],
+  ["\n  &:not(:root) {\n    overflow: hidden;\n  }\n"]
 );
 
 var _styledComponents = require("styled-components");

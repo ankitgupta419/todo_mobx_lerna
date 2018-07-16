@@ -9,7 +9,7 @@ const Button = base.Button;
 const Input = base.Input;
 const Ul = base.Ul;
 const H1 = base.H1;
-
+const H3 = base.H3;
 @observer
 class TodoList extends React.Component {
   @observable newTodoTitle = "";
@@ -37,7 +37,7 @@ class TodoList extends React.Component {
       <div>
         <H1>TODO</H1>
         <form onSubmit={this.handleFormSubmit}>
-          New Todo:
+          <span className="todoLabel">New Todo:</span>
           <Input
             type="text"
             value={this.newTodoTitle}
@@ -51,13 +51,13 @@ class TodoList extends React.Component {
             <Todo todo={todo} key={todo.id} />
           ))}
         </Ul>
-        Tasks left: {this.props.store.unfinishedTodoCount}
+        <H3>Tasks left: {this.props.store.unfinishedTodoCount}</H3>
         <div>
           <br />
           <br />
           <br />
           <br />
-          <h2>Winner List</h2>
+          <h2>User List</h2>
           {this.state.allUsers.map((user, i) => (
             <div key={i}>
               <span>{i + 1 + ")     "}</span>

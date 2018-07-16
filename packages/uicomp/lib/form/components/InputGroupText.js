@@ -7,7 +7,7 @@ exports.InputGroupText = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    '\n  display: flex;\n  align-items: center;\n  padding: 0.375rem 0.75rem;\n  margin-bottom: 0;\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #495057;\n  text-align: center;\n  white-space: nowrap;\n  background-color: #e9ecef;\n  border: 1px solid #ced4da;\n  border-radius: 0.25rem;\n  & input[type="radio"],\n  & input[type="checkbox"] {\n    margin-top: 0;\n    margin-right: 0;\n    margin-bottom: 0.4125rem;\n  };\n  ',
+    '\n  display: flex;\n  align-items: center;\n  padding: 0.375rem 0.75rem;\n  margin-bottom: 0;\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #495057;\n  text-align: center;\n  white-space: nowrap;\n  background-color: #e9ecef;\n  border: 1px solid #ced4da;\n  border-radius: 0.25rem;\n  & input[type="radio"],\n  & input[type="checkbox"] {\n    margin-top: 0;\n    margin-right: 0;\n    margin-bottom: 0.4125rem;\n  }\n  ',
     ";\n  ",
     ";\n  ",
     ";\n  ",
@@ -21,7 +21,7 @@ var _templateObject = _taggedTemplateLiteral(
     ";\n"
   ],
   [
-    '\n  display: flex;\n  align-items: center;\n  padding: 0.375rem 0.75rem;\n  margin-bottom: 0;\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #495057;\n  text-align: center;\n  white-space: nowrap;\n  background-color: #e9ecef;\n  border: 1px solid #ced4da;\n  border-radius: 0.25rem;\n  & input[type="radio"],\n  & input[type="checkbox"] {\n    margin-top: 0;\n    margin-right: 0;\n    margin-bottom: 0.4125rem;\n  };\n  ',
+    '\n  display: flex;\n  align-items: center;\n  padding: 0.375rem 0.75rem;\n  margin-bottom: 0;\n  font-size: 1rem;\n  font-weight: 400;\n  line-height: 1.5;\n  color: #495057;\n  text-align: center;\n  white-space: nowrap;\n  background-color: #e9ecef;\n  border: 1px solid #ced4da;\n  border-radius: 0.25rem;\n  & input[type="radio"],\n  & input[type="checkbox"] {\n    margin-top: 0;\n    margin-right: 0;\n    margin-bottom: 0.4125rem;\n  }\n  ',
     ";\n  ",
     ";\n  ",
     ";\n  ",

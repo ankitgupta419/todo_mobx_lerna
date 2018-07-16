@@ -7,10 +7,10 @@ exports.Samp = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;\n  font-size: 1em;\n'
+    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",\n    "Courier New", monospace;\n  font-size: 1em;\n'
   ],
   [
-    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;\n  font-size: 1em;\n'
+    '\n  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",\n    "Courier New", monospace;\n  font-size: 1em;\n'
   ]
 );
 

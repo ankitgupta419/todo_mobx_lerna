@@ -7,7 +7,7 @@ exports.CardText = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    "\n  margin-top: 0;\n  margin-bottom: 1rem;\n  &:last-child {\n    margin-bottom: 0;\n  };\n  ",
+    "\n  margin-top: 0;\n  margin-bottom: 1rem;\n  &:last-child {\n    margin-bottom: 0;\n  }\n  ",
     ";\n  ",
     ";\n  ",
     ";\n  ",
@@ -21,7 +21,7 @@ var _templateObject = _taggedTemplateLiteral(
     ";\n"
   ],
   [
-    "\n  margin-top: 0;\n  margin-bottom: 1rem;\n  &:last-child {\n    margin-bottom: 0;\n  };\n  ",
+    "\n  margin-top: 0;\n  margin-bottom: 1rem;\n  &:last-child {\n    margin-bottom: 0;\n  }\n  ",
     ";\n  ",
     ";\n  ",
     ";\n  ",

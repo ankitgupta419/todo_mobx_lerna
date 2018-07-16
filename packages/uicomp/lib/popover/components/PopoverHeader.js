@@ -16,7 +16,7 @@ var _templateObject = _taggedTemplateLiteral(
   _templateObject2 = _taggedTemplateLiteral(
     [
       "\n    padding: 0.5rem 0.75rem;\n    margin-bottom: 0;\n    font-size: 1rem;\n    color: inherit;\n    background-color: #f7f7f7;\n    border-bottom: 1px solid #ebebeb;\n    border-top-left-radius: calc(0.3rem - 1px);\n    border-top-right-radius: calc(0.3rem - 1px);\n    ",
-      ";\n    &:empty {\n      display: none;\n    };\n    ",
+      ";\n    &:empty {\n      display: none;\n    }\n    ",
       ";\n    ",
       ";\n    ",
       ";\n    ",
@@ -31,7 +31,7 @@ var _templateObject = _taggedTemplateLiteral(
     ],
     [
       "\n    padding: 0.5rem 0.75rem;\n    margin-bottom: 0;\n    font-size: 1rem;\n    color: inherit;\n    background-color: #f7f7f7;\n    border-bottom: 1px solid #ebebeb;\n    border-top-left-radius: calc(0.3rem - 1px);\n    border-top-right-radius: calc(0.3rem - 1px);\n    ",
-      ";\n    &:empty {\n      display: none;\n    };\n    ",
+      ";\n    &:empty {\n      display: none;\n    }\n    ",
       ";\n    ",
       ";\n    ",
       ";\n    ",

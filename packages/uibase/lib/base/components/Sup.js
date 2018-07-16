@@ -7,10 +7,10 @@ exports.Sup = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
   [
-    "\n  position: relative;\n  font-size: 75%;\n  line-height: 0;\n  vertical-align: baseline;\n  top: -.5em;\n"
+    "\n  position: relative;\n  font-size: 75%;\n  line-height: 0;\n  vertical-align: baseline;\n  top: -0.5em;\n"
   ],
   [
-    "\n  position: relative;\n  font-size: 75%;\n  line-height: 0;\n  vertical-align: baseline;\n  top: -.5em;\n"
+    "\n  position: relative;\n  font-size: 75%;\n  line-height: 0;\n  vertical-align: baseline;\n  top: -0.5em;\n"
   ]
 );
 

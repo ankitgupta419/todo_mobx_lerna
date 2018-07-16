@@ -7,50 +7,50 @@ exports.NavbarLink = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
     [
-      "\n        color: rgba(0, 0, 0, 0.9);\n        &:hover,\n        &:focus {\n          color: rgba(0, 0, 0, 0.9);\n        };\n      "
+      "\n        color: rgba(0, 0, 0, 0.9);\n        &:hover,\n        &:focus {\n          color: rgba(0, 0, 0, 0.9);\n        }\n      "
     ],
     [
-      "\n        color: rgba(0, 0, 0, 0.9);\n        &:hover,\n        &:focus {\n          color: rgba(0, 0, 0, 0.9);\n        };\n      "
+      "\n        color: rgba(0, 0, 0, 0.9);\n        &:hover,\n        &:focus {\n          color: rgba(0, 0, 0, 0.9);\n        }\n      "
     ]
   ),
   _templateObject2 = _taggedTemplateLiteral(
     [
-      "\n        color: rgba(0, 0, 0, 0.3);\n        &:hover,\n        &:focus {\n          color: rgba(0, 0, 0, 0.3);\n        };\n      "
+      "\n        color: rgba(0, 0, 0, 0.3);\n        &:hover,\n        &:focus {\n          color: rgba(0, 0, 0, 0.3);\n        }\n      "
     ],
     [
-      "\n        color: rgba(0, 0, 0, 0.3);\n        &:hover,\n        &:focus {\n          color: rgba(0, 0, 0, 0.3);\n        };\n      "
+      "\n        color: rgba(0, 0, 0, 0.3);\n        &:hover,\n        &:focus {\n          color: rgba(0, 0, 0, 0.3);\n        }\n      "
     ]
   ),
   _templateObject3 = _taggedTemplateLiteral(
     [
-      "\n      color: rgba(0, 0, 0, 0.5);\n      &:hover,\n      &:focus {\n        color: rgba(0, 0, 0, 0.7);\n      };\n    "
+      "\n      color: rgba(0, 0, 0, 0.5);\n      &:hover,\n      &:focus {\n        color: rgba(0, 0, 0, 0.7);\n      }\n    "
     ],
     [
-      "\n      color: rgba(0, 0, 0, 0.5);\n      &:hover,\n      &:focus {\n        color: rgba(0, 0, 0, 0.7);\n      };\n    "
+      "\n      color: rgba(0, 0, 0, 0.5);\n      &:hover,\n      &:focus {\n        color: rgba(0, 0, 0, 0.7);\n      }\n    "
     ]
   ),
   _templateObject4 = _taggedTemplateLiteral(
     [
-      "\n        color: rgba(255, 255, 255, 0.9);\n        &:hover,\n        &:focus {\n          color: rgba(255, 255, 255, 0.9);\n        };\n      "
+      "\n        color: rgba(255, 255, 255, 0.9);\n        &:hover,\n        &:focus {\n          color: rgba(255, 255, 255, 0.9);\n        }\n      "
     ],
     [
-      "\n        color: rgba(255, 255, 255, 0.9);\n        &:hover,\n        &:focus {\n          color: rgba(255, 255, 255, 0.9);\n        };\n      "
+      "\n        color: rgba(255, 255, 255, 0.9);\n        &:hover,\n        &:focus {\n          color: rgba(255, 255, 255, 0.9);\n        }\n      "
     ]
   ),
   _templateObject5 = _taggedTemplateLiteral(
     [
-      "\n        color: rgba(255, 255, 255, 0.25);\n        &:hover,\n        &:focus {\n          color: rgba(255, 255, 255, 0.25);\n        };\n      "
+      "\n        color: rgba(255, 255, 255, 0.25);\n        &:hover,\n        &:focus {\n          color: rgba(255, 255, 255, 0.25);\n        }\n      "
     ],
     [
-      "\n        color: rgba(255, 255, 255, 0.25);\n        &:hover,\n        &:focus {\n          color: rgba(255, 255, 255, 0.25);\n        };\n      "
+      "\n        color: rgba(255, 255, 255, 0.25);\n        &:hover,\n        &:focus {\n          color: rgba(255, 255, 255, 0.25);\n        }\n      "
     ]
   ),
   _templateObject6 = _taggedTemplateLiteral(
     [
-      "\n      color: rgba(255, 255, 255, 0.5);\n      &:hover,\n      &:focus {\n        color: rgba(255, 255, 255, 0.75);\n      };\n    "
+      "\n      color: rgba(255, 255, 255, 0.5);\n      &:hover,\n      &:focus {\n        color: rgba(255, 255, 255, 0.75);\n      }\n    "
     ],
     [
-      "\n      color: rgba(255, 255, 255, 0.5);\n      &:hover,\n      &:focus {\n        color: rgba(255, 255, 255, 0.75);\n      };\n    "
+      "\n      color: rgba(255, 255, 255, 0.5);\n      &:hover,\n      &:focus {\n        color: rgba(255, 255, 255, 0.75);\n      }\n    "
     ]
   ),
   _templateObject7 = _taggedTemplateLiteral(

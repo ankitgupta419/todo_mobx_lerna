@@ -7,10 +7,10 @@ exports.ListGroup = exports.listGroupFlush = undefined;
 
 var _templateObject = _taggedTemplateLiteral(
     [
-      "\n    & > a, \n    & > li {\n      border-right: 0;\n      border-left: 0;\n      border-radius: 0;\n      &:first-child {\n        border-top: 0;\n      };\n      &:last-child {\n        border-bottom: 0;\n      };\n    };\n  "
+      "\n    & > a,\n    & > li {\n      border-right: 0;\n      border-left: 0;\n      border-radius: 0;\n      &:first-child {\n        border-top: 0;\n      }\n      &:last-child {\n        border-bottom: 0;\n      }\n    }\n  "
     ],
     [
-      "\n    & > a, \n    & > li {\n      border-right: 0;\n      border-left: 0;\n      border-radius: 0;\n      &:first-child {\n        border-top: 0;\n      };\n      &:last-child {\n        border-bottom: 0;\n      };\n    };\n  "
+      "\n    & > a,\n    & > li {\n      border-right: 0;\n      border-left: 0;\n      border-radius: 0;\n      &:first-child {\n        border-top: 0;\n      }\n      &:last-child {\n        border-bottom: 0;\n      }\n    }\n  "
     ]
   ),
   _templateObject2 = _taggedTemplateLiteral(
